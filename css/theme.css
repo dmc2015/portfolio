@@ -1,0 +1,25 @@
+body{
+font-family: "Mondo Bongo", "Atomic Age", "Helvetica", "Sans"
+
+}
+
+body nav{
+background:gray;
+color: white;
+}
+
+ul li{
+	list-style: none;
+
+}
+
+body a{
+text-decoration: none;
+box-shadow: 10px 10px 5px #888888;
+}
+
+body img{
+box-shadow: 10px 10px 5px black;
+
+
+}
