@@ -1,6 +1,14 @@
-body{
-font-family: "Mondo Bongo", "Atomic Age", "Helvetica", "Sans"
+html{
+	/*background-image: url("../images/background.png");*/
 
+}
+
+
+body{
+	background-image: url("../images/background.png");
+/*background-repeat: no-repeat;*/
+font-family: "Mondo Bongo", "Atomic Age", "Helvetica", "Sans";
+/*background-color: #cccccc;*/
 }
 
 body nav{
