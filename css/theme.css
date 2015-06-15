@@ -1,19 +1,20 @@
 html{
 	/*background-image: url("../images/background.png");*/
-
+	/*background-image: url("../images/bg-2-full.png");*/
 }
 
 
 body{
 	background-image: url("../images/background.png");
-/*background-repeat: no-repeat;*/
-font-family: "Mondo Bongo", "Atomic Age", "Helvetica", "Sans";
-/*background-color: #cccccc;*/
+	background-image: url("../images/bg-2-full.jpg");
+	/*background-repeat: no-repeat;*/
+	font-family: "Mondo Bongo", "Atomic Age", "Helvetica", "Sans";
+	/*background-color: #cccccc;*/
 }
 
-body nav{
-background:gray;
-color: ;
+/*body nav{
+	background:gray;
+	color: ;
 }
 
 ul li{
@@ -21,17 +22,17 @@ ul li{
 }
 
 body a{
-text-decoration: none;
-box-shadow: 3px 3px 3px #888888;
+	text-decoration: none;
+	box-shadow: 3px 3px 3px #888888;
 }
 
 body img{
-box-shadow: 10px 10px 5px black;
+	box-shadow: 10px 10px 5px black;
 
 
 }
 
 
 nav{
-font-size: 300%;
-}
+	font-size: 300%;
+}*/
