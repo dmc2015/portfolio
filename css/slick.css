@@ -1,0 +1,25 @@
+.slick-prev:before, .slick-next:before{
+  color:  #061436 !important;
+  background-color: #black;
+
+}
+/*
+
+.slideshow .project img{
+  width: 20%;
+
+}*/
+
+
+.slick-prev{
+  position: absolute;
+  left: 0px;
+
+
+}
+
+.slick-next{
+  position: absolute;
+  right: 50px;
+
+}

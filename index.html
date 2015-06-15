@@ -6,23 +6,22 @@
 	<meta name = "viewport" content="width=device-width, initial-scale=1.0"/>
 
 	<link rel="stylesheet" href="">
-	<link rel="stylesheet" href="../foundation-5.5.2/css/foundation.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
-	<link rel="stylesheet" href="http://cdn.foundation5.zurb.com/foundation.css">
 	<!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"/> -->
 
-	<script src="../foundation-5.5.2/js/vendor/modernizr.js"></script>
+	<script src="foundation-5.5.2/js/vendor/modernizr.js"></script>
 
 
 	<title>CyberDesigns</title>
 	<!-- <link rel="stylesheet" type="text/css" href="css/theme.css"/> -->
 	<link rel="stylesheet" type="text/css" href="css/layout.css"/>
 
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick.css"/>
 
 	<!-- // Add the slick-theme.css if you want default styling -->
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick-theme.css"/>
 
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 
 </head>
 
@@ -115,7 +114,9 @@
 
 		</section>
 
-		<section class="row">
+		<!-- <div class="slideshow" data-slick='{"slidesToShow":1, "slidesToScroll":1}'> -->
+		<div class="slideshow">
+
 			<div class="securitypulse project">
 				<a href="http://securitypulse.herokuapp.com"> <img src="images/securitypulse.png"/> </a>
 			</div>
@@ -128,7 +129,7 @@
 				<a href="http://localhost:3000"> <img src="images/postpoll.png"/></a>
 			</div>
 
-		</section>
+		</div>
 	</main>
 
 
@@ -142,9 +143,34 @@
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
 	<script src="http://cdn.foundation5.zurb.com/foundation.js"></script>
 
+	<!-- from slick guide -->
+	<!--<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+
+	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
+
 	<script>
 	$(document).foundation();
 	</script>
-	<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.5/slick.min.js"></script>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
+
+	<!-- Initializing slick -->
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.slideshow').slick({
+			dots: true,
+			cssEase: 'linear',
+			infinite: true,
+			speed: 300,
+			slidesToShow: 1,
+			centerMode: true,
+			arrows: true,
+			variableWidth: true
+		});
+	});
+	</script>
+
 </body>
 </html>
