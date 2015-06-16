@@ -5,11 +5,63 @@ html{
 
 
 body{
-	background-image: url("../images/background.png");
+	/*background-image: url("../images/background.png");*/
 	background-image: url("../images/bg-2-full.jpg");
+
+
 	/*background-repeat: no-repeat;*/
 	font-family: "Mondo Bongo", "Atomic Age", "Helvetica", "Sans";
 	/*background-color: #cccccc;*/
+}
+
+/*main .portfolio-preview, portfolio-preview{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-top: 5%;
+}*/
+
+.inline{
+	display: inline;
+}
+
+
+.section-2{
+	/*background-image: url("../images/bg-1-full.jpg");*/
+	background-color: #FF0000;
+	float:right;
+
+}
+
+.subsection{
+	/*margin-left: 30%;
+	margin-right: 30%;*/
+position: ;
+margin-bottom: 25%;
+padding-bottom: 25%;
+
+
+
+
+}
+
+.section-2, .section-2 p, .section-2 h2 .section-2 h1, .section-2 h1{
+	/*background-image: url("../images/bg-1-full.jpg");*/
+	color: #ccc;
+
+}
+
+
+.pro_photo{
+	float:left;
+	/*clear:both;*/
+	/*margin-left: 30%;
+	margin-right: 30%;*/
+	padding-left: 40%;
+	padding-right: 40%;
+	display: inline;
+
+
 }
 
 /*body nav{
