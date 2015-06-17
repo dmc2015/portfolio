@@ -50,7 +50,7 @@ margin-top: 5%;
 }
 
 
- .name{
+.name{
 	padding-bottom: 3%;
 }
 
@@ -58,11 +58,11 @@ margin-top: 5%;
 .about, .about p, .about h2 .about h1, .about h1{
 	/*background-image: url("../images/bg-1-full.jpg");*/
 	color: #ccc;
-background-color: #0E3636;
+	background-color: #0E3636;
 }
 
 .about{
-background-color: #0E3636;
+	background-color: #0E3636;
 }
 
 
@@ -87,12 +87,23 @@ background-color: #0E3636;
 
 .portfolio-heading{
 	margin-top:0;
+	color: #ccc;
+
 }
 
 .portfolio{
 	/*background-color: #FF0000;*/
 	background-image: url("../images/bg-2-full.jpg");
+}
 
+.main-nav li a{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	/*font-stretch: semi-expanded;*/
+	font-size: 30px;
+	margin-right: 130px;
 }
 
 /*body nav{
