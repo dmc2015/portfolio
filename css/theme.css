@@ -1,12 +1,13 @@
 html{
 	/*background-image: url("../images/background.png");*/
 	/*background-image: url("../images/bg-2-full.png");*/
+
 }
 
 
 body{
 	/*background-image: url("../images/background.png");*/
-	background-image: url("../images/bg-2-full.jpg");
+	/*background-image: url("../images/bg-2-full.jpg");*/
 
 
 	/*background-repeat: no-repeat;*/
@@ -15,40 +16,58 @@ body{
 }
 
 /*main .portfolio-preview, portfolio-preview{
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	margin-top: 5%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 5%;
 }*/
 
-.inline{
-	display: inline;
-}
 
 
-.section-2{
+
+.about{
 	/*background-image: url("../images/bg-1-full.jpg");*/
-	background-color: #FF0000;
-	float:right;
+	/*background-color: #FF0000;*/
+	/*float:right;*/
 
 }
 
-.subsection{
+.subsection {
 	/*margin-left: 30%;
 	margin-right: 30%;*/
-position: ;
-margin-bottom: 25%;
-padding-bottom: 25%;
-
-
-
-
+	display: block;
+	margin-bottom: 25%;
+	padding-bottom: 25%;
+	margin-left: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
 }
 
-.section-2, .section-2 p, .section-2 h2 .section-2 h1, .section-2 h1{
+.subsection *{
+	font-weight: bold;
+	/*line-height: 200%;*/
+	letter-spacing: 2px;
+}
+
+
+ .name{
+	padding-bottom: 3%;
+}
+
+
+.about, .about p, .about h2 .about h1, .about h1{
 	/*background-image: url("../images/bg-1-full.jpg");*/
 	color: #ccc;
+background-color: #0E3636;
+}
 
+.about{
+background-color: #0E3636;
+}
+
+
+.panel{
+	margin-bottom: 0;
 }
 
 
@@ -57,34 +76,46 @@ padding-bottom: 25%;
 	/*clear:both;*/
 	/*margin-left: 30%;
 	margin-right: 30%;*/
-	padding-left: 40%;
-	padding-right: 40%;
+	/*padding-left: 40%;
+	padding-right: 40%;*/
+	max-width: 25%;
 	display: inline;
+	margin-left: 10%;
+	margin-right: 15%;
+	padding-top: 5%;
+}
 
+.portfolio-heading{
+	margin-top:0;
+}
+
+.portfolio{
+	/*background-color: #FF0000;*/
+	background-image: url("../images/bg-2-full.jpg");
 
 }
 
 /*body nav{
-	background:gray;
-	color: ;
+background:gray;
+color: ;
 }
 
 ul li{
-	list-style: none;
+list-style: none;
 }
 
 body a{
-	text-decoration: none;
-	box-shadow: 3px 3px 3px #888888;
+text-decoration: none;
+box-shadow: 3px 3px 3px #888888;
 }
 
 body img{
-	box-shadow: 10px 10px 5px black;
+box-shadow: 10px 10px 5px black;
 
 
 }
 
 
 nav{
-	font-size: 300%;
+font-size: 300%;
 }*/
