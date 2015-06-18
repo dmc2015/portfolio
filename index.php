@@ -24,7 +24,6 @@
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="css/contactform.css"/>
 
-	google captcha
 	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
