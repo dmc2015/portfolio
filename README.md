@@ -18,6 +18,121 @@ fix extra right margin
 google analytics
 blog
 
+---------------
+
+Host IPHERE
+  HostName IPHERE
+  User root
+	IdentityFile ~/.ssh/keypair.pem
+
+
+
+
+
+chmod 400 keypair.pem
+
+
+
+
+sudo apt-get update
+
+sudo apt-get install apache2 php5
+
+
+cd /var/www
+
+
+sudo chown ubuntu:ubuntu /var/www/html
+
+
+<?php phpinfo(); ?>
+
+--------------
+
+OVERFLOW WEBBOX ISSSUE
+
+hi have you worked with flexbox issues before?
+an hour ago
+
+I have worked with some
+28 minutes ago
+
+do you have time to assist?
+28 minutes ago
+
+easiest fixes usually involve falling back to "display:table, table-row, table-cell" so that it degrades to something managable
+27 minutes ago
+
+to you have it published somewhere right now?
+27 minutes ago
+
+http://52.26.214.120
+26 minutes ago
+
+there is extra margin on the right
+26 minutes ago
+
+in what browser?
+24 minutes ago
+
+chrome or firefox
+23 minutes ago
+
+at the contact form area?
+23 minutes ago
+
+if you scroll the screen to the right there is white space on any section
+22 minutes ago
+
+remove "overflow: hidden;" form ".slick-list"
+13 minutes ago
+
+http://52.26.214.120/bower_components/slick.js/slick/slick.css
+12 minutes ago
+
+line 22
+12 minutes ago
+
+I tried that, it allows me to scroll to the right without stopping.
+8 minutes ago
+
+overflow: hidden will force certain box model elements to expand to fit their contents. To counter that you usually set explicit heights/widths or position it with relative/absolute/fixed and set top/left/bottom/right to keep is from becoming larger than its container element
+8 minutes ago
+
+ok then go the other route
+6 minutes ago
+
+.portfolio {
+   background-image: url("../images/bg-2-full.jpg");
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+6 minutes ago
+
+http://52.26.214.120/css/theme.css
+6 minutes ago
+
+line 94
+6 minutes ago
+
+that worked
+3 minutes ago
+
+how did you know it was an issue in the portfolio?
+3 minutes ago
+
+looked for the element that was wider than the body element
+2 minutes ago
+
+thanks
+a minute ago
+
+and the portfolio element was smaller than the slider width-wise so forcing the portfolio element to hide overflow made it stop breaking out of the box model
+a minute ago
+
+
+------------------------
 
 <section ="2"
 <h1>About Me</h1>

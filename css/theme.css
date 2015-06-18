@@ -92,19 +92,40 @@ margin-top: 5%;
 }
 
 .portfolio{
-	/*background-color: #FF0000;*/
+	/*background-image: url("../images/bg-2-full.jpg");*/
+
 	background-image: url("../images/bg-2-full.jpg");
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
 }
 
+}
+
+html *.{
+	margin-right:0;
+	padding-right:0;
+}
+
+#portfolio{
+padding-top: 3%;
+padding-bottom: 4%;
+
+}
+/*
+html .js .flexbox .flexboxlegacy .canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths*/
+
+
+/*
 .main-nav li a{
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	/*font-stretch: semi-expanded;*/
-	font-size: 30px;
-	margin-right: 130px;
-}
+	/*font-size: 30px;*/
+	/*margin-right: 130px;
+}*/
 
 /*body nav{
 background:gray;

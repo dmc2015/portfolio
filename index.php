@@ -22,7 +22,10 @@
 	<link rel="stylesheet" type="text/css" href="bower_components/slick.js/slick/slick-theme.css"/>
 
 	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/contactform.css"/>
 
+	google captcha
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body id="top">
@@ -43,10 +46,10 @@
 			<section class ="top-bar-section">
 				<ul class="left small-4 main-nav">
 					<li>
-						<a  href="#portfolio">Portfolio</a>
+						<a href="#top">About</a>
 					</li>
 					<li>
-						<a href="#top">About</a>
+						<a  href="#portfolio">Portfolio</a>
 					</li>
 					<li>
 						<a href="#contact">Contact</a>
@@ -88,78 +91,84 @@
 						I will display my work here so be sure to check back later and<span class="inline"> follow</span> for additional updates.</p>
 					</section>
 				</section>
-				<section id="portfolio" class="portfolio">
+				<section  id="portfolio" class="portfolio">
 					<h1 class="text-center portfolio-heading">Portfolio</h1>
 
-	<ul class="slideshow small-block-grid-3">
-		<li class="securitypulse project th">
-			<a class="" href="http://securitypulse.herokuapp.com"> <img src="images/securitypulse_1.png"/> </a>
-			<p class="text-center panel">adfadfafafafa<p>
-			</li>
+					<ul class="slideshow small-block-grid-3">
+						<li class="securitypulse project th">
+							<a class="" href="http://securitypulse.herokuapp.com"> <img src="images/securitypulse_1.png"/> </a>
+							<p class="text-center panel">adfadfafafafa<p>
+							</li>
 
-			<li class="policonnect project th">
-				<a class="" href="http://www.policonnect.org"> <img src="images/policonnect_1.png"/></a>
-			</li>
+							<li class="policonnect project th">
+								<a class="" href="http://www.policonnect.org"> <img src="images/policonnect_1.png"/></a>
+							</li>
 
-			<!-- <li class="postpoll project th">
-			<a class="" href="http://localhost:3000"> <img src="images/postpoll.png"/></a>
-		</li> -->
+							<!-- <li class="postpoll project th">
+							<a class="" href="http://localhost:3000"> <img src="images/postpoll.png"/></a>
+						</li> -->
 
-		<li class="writershub project th">
-			<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/writershub_1.png"/></a>
-		</li>
+						<li class="writershub project th">
+							<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/writershub_1.png"/></a>
+						</li>
 
-	</ul>
-</section>
+					</ul>
+				</section>
+				<div id="contact" class="contact-form">
 
+					<h1 class="text-center contact-padding">Contact Me:</h1>
+					<?php include("form.php"); ?>
+					<!-- <div class="g-recaptcha" data-sitekey="6LcJdAgTAAAAAFNtfMQDBij8f1N6k8nCPk24ENv6"></div> -->
 
-
-</main>
-
-
-<footer>
-</footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="foundation-5.5.2/js/foundation.min.js"></script>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
-
-<script>
-$(document).foundation();
-</script>
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
-
-<!-- Initializing slick -->
-<script type="text/javascript">
-$(document).ready(function(){
-	$('.slideshow').slick({
-		dots: true,
-		cssEase: 'linear',
-		infinite: true,
-		speed: 300,
-		slidesToShow: 1,
-		centerMode: true,
-		centerPadding: '40px',
-		arrows: true,
-		variableWidth: true
-	});
-});
-</script>
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-64206324-1', 'auto');
-ga('send', 'pageview');
-
-</script>
+				</div>
 
 
+			</main>
 
-</body>
-</html>
+
+			<footer>
+			</footer>
+
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+			<script src="foundation-5.5.2/js/foundation.min.js"></script>
+
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
+
+			<script>
+			$(document).foundation();
+			</script>
+
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
+
+			<!-- Initializing slick -->
+			<script type="text/javascript">
+			$(document).ready(function(){
+				$('.slideshow').slick({
+					dots: true,
+					cssEase: 'linear',
+					infinite: true,
+					speed: 300,
+					slidesToShow: 1,
+					centerMode: true,
+					centerPadding: '40px',
+					arrows: true,
+					variableWidth: true
+				});
+			});
+			</script>
+
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-64206324-1', 'auto');
+			ga('send', 'pageview');
+
+			</script>
+
+
+
+		</body>
+		</html>
