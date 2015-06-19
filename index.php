@@ -25,6 +25,11 @@
 	<link rel="stylesheet" type="text/css" href="css/contactform.css"/>
 
 	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+
+
+	<link rel="stylesheet" type="text/css" href="css/customcontact.css"/>
+
 </head>
 
 <body id="top">
@@ -116,7 +121,7 @@
 				<div id="contact" class="contact-form">
 
 					<h1 class="text-center contact-padding">Contact Me:</h1>
-					<?php include("form.php"); ?>
+					<?php include("custom_form.php"); ?>
 					<!-- <div class="g-recaptcha" data-sitekey="6LcJdAgTAAAAAFNtfMQDBij8f1N6k8nCPk24ENv6"></div> -->
 
 				</div>
@@ -128,6 +133,8 @@
 			<footer>
 			</footer>
 
+
+
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 			<script src="foundation-5.5.2/js/foundation.min.js"></script>
 
@@ -138,7 +145,6 @@
 			</script>
 
 			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
-
 			<!-- Initializing slick -->
 			<script type="text/javascript">
 			$(document).ready(function(){
@@ -166,6 +172,10 @@
 			ga('send', 'pageview');
 
 			</script>
+
+
+			<script type="text/javascript" src="jquery_radiobutton.js"</script>
+
 
 
 

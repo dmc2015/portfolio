@@ -1,0 +1,65 @@
+label.required{
+  color: red;
+}
+
+.inline-label{
+  display: inline-block;
+}
+
+
+input#field_message {
+  width: 100%;
+  height: 200%;
+  padding-bottom: 10%;
+}
+
+
+input[type="checkbox"]+label, input[type="radio"]+label{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+
+.submit{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+input#field_submit {
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+
+/*input[value="Send Message"]{
+  margin-right: -30px;
+}*/
+
+
+/*.contact-form input{
+  color: black;
+}
+
+input[type="text"]{
+  color: black;
+}*/
+
+.contact-form div input{
+  color:black;
+  }
+
+  input[type="text"]{
+    color:black;
+  }
+
+input #field_message{
+    color:black;
+  }
+
+*[placeholder="Compose Message"]{
+    color:red;
+  }

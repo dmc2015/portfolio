@@ -1,0 +1,2 @@
+#Ignoring PHP Composer vendor folder#
+vendor/*
