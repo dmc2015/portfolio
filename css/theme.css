@@ -52,6 +52,11 @@ margin-top: 5%;
 
 .name{
 	padding-bottom: 3%;
+	font-weight: normal;
+}
+
+h1 .aboutme{
+	font-weight: normal;
 }
 
 
