@@ -63,3 +63,44 @@ input #field_message{
 *[placeholder="Compose Message"]{
     color:red;
   }
+
+/*EMAILFORM*/
+.email-contact{
+    margin-left: 30%;
+margin-right:30%;
+margin-bottom: 5%;
+}
+
+
+.default-contact{
+  padding-bottom: 10px;
+
+}
+
+
+/*::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, ms-input-placeholder{
+   color: black;
+}*/
+
+
+.default-contact a{
+  color: black;
+}
+
+/*
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder {
+   color: black;
+}
+
+::-moz-placeholder {
+   color: black;
+}
+
+:-ms-input-placeholder {
+   color: black;
+}
+*/

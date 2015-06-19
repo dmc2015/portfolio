@@ -118,10 +118,15 @@
 
 					</ul>
 				</section>
-				<div id="contact" class="contact-form">
+				<div id="contact" class="contact-form default-contact">
 
 					<h1 class="text-center contact-padding">Contact Me:</h1>
-					<?php include("custom_form.php"); ?>
+
+					<p class="panel text-center email-contact">
+						<a href="mailto:mclamb.donald@gmail.com">Email Me</a>
+					</p>
+
+					<!-- //<php include("custom_form.php"); ?> -->
 					<!-- <div class="g-recaptcha" data-sitekey="6LcJdAgTAAAAAFNtfMQDBij8f1N6k8nCPk24ENv6"></div> -->
 
 				</div>
