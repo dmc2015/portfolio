@@ -29,6 +29,8 @@
 
 
 	<link rel="stylesheet" type="text/css" href="css/customcontact.css"/>
+	<link rel="stylesheet" type="text/css" href="css/skills.css"/>
+
 
 </head>
 
@@ -77,7 +79,7 @@
 <main>
 	<section class="about panel">
 		<img class="pro_photo" src="images/professional_photo.jpg" alt="Professional Photo"/>
-		<section class="subsection text-center">
+		<section class="subsection ">
 			<h1 class="aboutme">About Me</h1>
 			<h1 class="name">Don McLamb</h1>
 			<p>
@@ -93,8 +95,21 @@
 
 					<p>I intend to continue to develop my portfolio and grow my skills as a full-stack web developer through freelance and short-term project work.
 						I will display my work here so be sure to check back later and<span class="inline"> follow</span> for additional updates.</p>
+
+						<h2>Skills:</h2>
+						<ul id="skills">
+							<li>HTML5</p></li>
+							<li>CSS3 - Foundations</p></li>
+							<li>Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p></li>
+							<li>Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p></li>
+							<li>Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku</p></li>
+						</ul>
+
 					</section>
 				</section>
+
+		
+
 				<section  id="portfolio" class="portfolio">
 					<h1 class="text-center portfolio-heading">Portfolio</h1>
 
@@ -184,5 +199,5 @@
 
 
 
-		</body>
-		</html>
+			</body>
+			</html>

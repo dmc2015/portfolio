@@ -1,0 +1,23 @@
+#skills{
+  /*margin:30%;*/
+  color: white;
+  padding-bottom: 40px;
+  margin-bottom: 1%;
+  margin-left: 50%;
+}
+
+
+.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
+  color: #ccc;
+}
+
+
+#skills *{
+  color: #ccc;
+}
+
+@media(max-width: 1307px){
+  #skills{
+    margin-left:0px;
+  }
+}
