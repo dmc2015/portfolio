@@ -108,19 +108,21 @@
 					</section>
 				</section>
 
-		
 
-				<section  id="portfolio" class="portfolio">
+
+				<section  id="portfolio" class="portfolio row">
 					<h1 class="text-center portfolio-heading">Portfolio</h1>
 
 					<ul class="slideshow small-block-grid-3">
 						<li class="securitypulse project th">
 							<a class="" href="http://securitypulse.herokuapp.com"> <img src="images/securitypulse_1.png"/> </a>
-							<p class="text-center panel">adfadfafafafa<p>
+							<p class="text-center panel">A application designed encouraging and supporting a
+								  secure web.</p>
 							</li>
 
 							<li class="policonnect project th">
 								<a class="" href="http://www.policonnect.org"> <img src="images/policonnect_1.png"/></a>
+								<p class="text-center panel">A group project to connect policymakers to experts in order to inform policymakers when making decisions.</p>
 							</li>
 
 							<!-- <li class="postpoll project th">
@@ -129,7 +131,13 @@
 
 						<li class="writershub project th">
 							<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/writershub_1.png"/></a>
+							<p class="text-center panel">A group project to assist writers in promoting their work and allow readers an opprotunity to read short stories.</p>
 						</li>
+
+						<!-- <li class="todo project th">
+							<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/"/></a>
+							<p class="text-center panel">A app mobile and web app created with Meteor.js that allows one to track their daily tasks.</p>
+						</li> -->
 
 					</ul>
 				</section>
