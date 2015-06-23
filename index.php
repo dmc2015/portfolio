@@ -150,11 +150,11 @@
 
 					<h1 class="text-center contact-padding">Contact Me:</h1>
 
-					<!-- <p class="panel text-center email-contact">
+					<p class="panel text-center email-contact">
 						<a href="mailto:mclamb.donald@gmail.com">Email Me</a>
-					</p> -->
+					</p>
 
-					<?php include("custom_form.php"); ?>
+					<!-- <php include("custom_form.php"); ?> -->
 					<!-- <div class="g-recaptcha" data-sitekey="6LcJdAgTAAAAAFNtfMQDBij8f1N6k8nCPk24ENv6"></div> -->
 
 				</div>
