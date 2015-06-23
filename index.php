@@ -134,6 +134,11 @@
 							<p class="text-center panel">A group project to assist writers in promoting their work and allow readers an opprotunity to read short stories.</p>
 						</li>
 
+						<li class="daytracker project th">
+							<a class="" href="http://daytracker.meteor.com"> <img src="images/daytracker.png"/></a>
+							<p class="text-center panel">Prototype project for Meteor.js, a organizational app.</p>
+						</li>
+
 						<!-- <li class="todo project th">
 							<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/"/></a>
 							<p class="text-center panel">A app mobile and web app created with Meteor.js that allows one to track their daily tasks.</p>
@@ -145,11 +150,11 @@
 
 					<h1 class="text-center contact-padding">Contact Me:</h1>
 
-					<p class="panel text-center email-contact">
+					<!-- <p class="panel text-center email-contact">
 						<a href="mailto:mclamb.donald@gmail.com">Email Me</a>
-					</p>
+					</p> -->
 
-					<!-- //<php include("custom_form.php"); ?> -->
+					<?php include("custom_form.php"); ?>
 					<!-- <div class="g-recaptcha" data-sitekey="6LcJdAgTAAAAAFNtfMQDBij8f1N6k8nCPk24ENv6"></div> -->
 
 				</div>
