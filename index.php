@@ -134,8 +134,8 @@
 							<p class="text-center panel">A group project to assist writers in promoting their work and allow readers an opprotunity to read short stories.</p>
 						</li>
 
-						<li class="daytracker project th">
-							<a class="" href="http://daytrackr.meteor.com"> <img src="images/daytracker.png"/></a>
+						<li class="daytrackr project th">
+							<a class="" href="http://daytrackr.meteor.com"> <img src="images/daytrackr.png"/></a>
 							<p class="text-center panel">Prototype project for Meteor.js, a organizational app.</p>
 						</li>
 
