@@ -135,7 +135,7 @@
 						</li>
 
 						<li class="daytracker project th">
-							<a class="" href="ttp://daytrack.r.meteor.com"> <img src="images/daytracker.png"/></a>
+							<a class="" href="http://daytrack.r.meteor.com"> <img src="images/daytracker.png"/></a>
 							<p class="text-center panel">Prototype project for Meteor.js, a organizational app.</p>
 						</li>
 
