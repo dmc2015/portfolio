@@ -36,8 +36,8 @@ margin-top: 5%;
 	/*margin-left: 30%;
 	margin-right: 30%;*/
 	display: block;
-	margin-bottom: 25%;
-	padding-bottom: 25%;
+	margin-bottom: %;
+	padding-bottom: 0%;
 	margin-left: 15px;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -52,6 +52,11 @@ margin-top: 5%;
 
 .name{
 	padding-bottom: 3%;
+	font-weight: normal;
+}
+
+h1 .aboutme{
+	font-weight: normal;
 }
 
 
@@ -108,9 +113,13 @@ html *.{
 }
 
 #portfolio{
-padding-top: 3%;
-padding-bottom: 4%;
+padding-top: 6%;
+padding-bottom: 12%;
 
+}
+
+.policonnect img{
+	margin-right: 0px;
 }
 /*
 html .js .flexbox .flexboxlegacy .canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths*/
