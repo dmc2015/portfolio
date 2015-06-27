@@ -60,6 +60,9 @@
 					<li>
 						<a href="#contact">Contact</a>
 					</li>
+					<li>
+						<a href="docs/updatedresume-color.pdf">Resume</a>
+					</li>
 				</ul>
 
 				<ul class="right small-4">
