@@ -15,3 +15,10 @@ $('body').scrollTop()
   font-weight: normal;
   padding: 0.1875rem 1rem;
 }
+
+
+
+  9     contact-position: $('#contact').offset()
+ 10
+ 11     settings : if:
+
