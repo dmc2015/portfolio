@@ -90,6 +90,30 @@ h1 .aboutme{
 	padding-top: 5%;
 }
 
+
+.pro_photo_new{
+	float:left;
+	/*clear:both;*/
+	/*margin-left: 30%;
+	margin-right: 30%;*/
+	/*padding-left: 40%;
+	padding-right: 40%;*/
+	max-width: 25%;
+	display: inline;
+	margin-left: 10%;
+	margin-right: 15%;
+	border-top-left-radius: 40%;
+	border-top-right-radius: 40%;
+	border-bottom-left-radius: 40%;
+	border-bottom-right-radius: 40%;
+/*	padding: 1%;
+	padding-bottom: 10%;*/
+	max-height: 500px;
+	border: solid 5px #ccc;
+
+
+}
+
 .portfolio-heading{
 	margin-top:0;
 	color: #ccc;
@@ -120,6 +144,23 @@ padding-bottom: 12%;
 
 .policonnect img{
 	margin-right: 0px;
+}
+
+
+.about.panel{
+padding-top: 1%;
+}
+/*
+div.sticky nav, div.sticky ul{
+background-color: black;
+}
+
+.main-nav{
+background-color: black;
+}
+
+nav{
+background-color: black;
 }
 /*
 html .js .flexbox .flexboxlegacy .canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths*/
