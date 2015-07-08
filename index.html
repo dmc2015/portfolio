@@ -33,6 +33,9 @@
 	<link rel="stylesheet" type="text/css" href="css/skills.css"/>
 
 
+
+
+
 </head>
 
 <body id="top">
@@ -49,53 +52,57 @@
 				</li>
 			</ul>
 
-			<div data-magellan-expedition="fixed">
-				<dl class="sub-nav">
-					<dd data-magellan-arrival="about"><a href="#top">About</dd>
-						<dd data-magellan-arrival="portfolio"><a href="#portfolio">Portfolio</dd>
-							<dd data-magellan-arrival="contact"><a href="#contact">Contact</dd>
-								<!-- <dd data-magellan-arrival="#resume"><a href=""</dd> -->
-							</dl>
+			<!-- <div data-magellan-expedition="fixed">
+			<dl class="sub-nav">
+			<dd data-magellan-arrival="top"><a href="#top">About</a></dd>
+			<dd data-magellan-arrival="portfolio"><a href="#portfolio">Portfolio</a></dd>
+			<dd data-magellan-arrival="contact"><a href="#contact">Contact</a></dd>
+			<dd data-magellan-arrival="#resume"><a href=""</dd>
+		</dl>
 
-						</div>
+	</div> -->
 
 
-						<!-- <section class ="top-bar-section">
-						<ul class="left small-4 main-nav ">
-						<li>
+		
+			<section class ="top-bar-section">
+				<ul class="left small-4 main-nav ">
+					<li>
 						<a href="#top">About</a>
 					</li>
 					<li>
-					<a  href="#portfolio">Portfolio</a>
-				</li>
-				<li>
-				<a href="#contact">Contact</a>
-			</li>
-			<li>
-			<a href="docs/updatedresume-color.pdf">Resume</a>
-		</li>
-	</ul>
+						<a  href="#portfolio">Portfolio</a>
+					</li>
+					<li>
+						<a href="#contact">Contact</a>
+					</li>
+					<li>
+						<a href="docs/updatedresume-color.pdf">Resume</a>
+					</li>
+				</ul>
 
-	<ul class="right small-4">
-	<li><a href="https://twitter.com/_D__o__N_"> <img class="social" src="images/twitter.png" alt="Twitter Account"/></a></li>
-	<li><a href="https://facebook.com/don.mclamb.16"> <img class="social" src="images/facebook.png" alt="Facebook Account"/></a></li>
-	<li><a href="https://linkedin.com/mclambdon"> <img class="social" src="images/linkedin.png" alt="LinkedIn Account"/></a></li>
-	<li><a href="https://github.com/dmc2015"><img class="social" src="images/github.png" alt="Github Account"/></a></li>
-</li>
-</ul>
-</section> -->
-</nav>
+				<ul class="right small-4">
+					<li><a href="https://twitter.com/_D__o__N_"> <img class="social" src="images/twitter.png" alt="Twitter Account"/></a></li>
+					<li><a href="https://facebook.com/don.mclamb.16"> <img class="social" src="images/facebook.png" alt="Facebook Account"/></a></li>
+					<li><a href="https://linkedin.com/mclambdon"> <img class="social" src="images/linkedin.png" alt="LinkedIn Account"/></a></li>
+					<li><a href="https://github.com/dmc2015"><img class="social" src="images/github.png" alt="Github Account"/></a></li>
+				</li>
+			</ul>
+		</section>
+	</nav>
 </div>
 
 
 
 
 <main>
-	<section class="about panel">
+	<section data-magellan-destination="about" class="about panel">
 		<img class="pro_photo" src="images/professional_photo.jpg" alt="Professional Photo"/>
+
+		<a name="about"></a>
+
 		<section class="subsection ">
-			<h2 data-magellan-destination="about" class="aboutme">About Me</h2>
-			<a name="about"></a>
+			<h2 class="aboutme">About Me</h2>
+
 			<h2 class="name">Don McLamb</h2>
 			<p>
 				Hey, thanks for stopping by to visit my site.
@@ -125,7 +132,7 @@
 
 
 
-				<section  data-magellan-destination="portfolio" id="portfolio" class="portfolio row">
+				<section data-magellan-destination="portfolio" id="portfolio" class="portfolio row">
 					<a name="portfolio"></a>
 					<h2 class="text-center portfolio-heading">Portfolio</h2>
 
@@ -169,67 +176,70 @@
 				<h2 data-magellan-destination="contact" class="text-center contact-padding">Contact Me:</h1>
 
 
-				<p class="panel text-center email-contact">
-					<a href="mailto:mclamb.donald@gmail.com">Email Me</a>
-				</p>
+					<p class="panel text-center email-contact">
+						<a href="mailto:mclamb.donald@gmail.com">Email Me</a>
+					</p>
 
-				<!-- <php include("custom_form.php"); ?> -->
-				<!-- <div class="g-recaptcha" data-sitekey="6LcJdAgTAAAAAFNtfMQDBij8f1N6k8nCPk24ENv6"></div> -->
+					<!-- <php include("custom_form.php"); ?> -->
+					<!-- <div class="g-recaptcha" data-sitekey="6LcJdAgTAAAAAFNtfMQDBij8f1N6k8nCPk24ENv6"></div> -->
 
-			</div>
-
-
-		</main>
+				</div>
 
 
-		<footer>
-		</footer>
+			</main>
+
+
+			<footer>
+			</footer>
 
 
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="foundation-5.5.2/js/foundation.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+			<script src="foundation-5.5.2/js/foundation.min.js"></script>
 
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script>
 
-		<script>
-		$(document).foundation();
-		</script>
+			<script>
+			$(document).foundation();
+			</script>
 
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
-		<!-- Initializing slick -->
-		<script type="text/javascript">
-		$(document).ready(function(){
-			$('.slideshow').slick({
-				dots: true,
-				cssEase: 'linear',
-				infinite: true,
-				speed: 300,
-				slidesToShow: 1,
-				centerMode: true,
-				centerPadding: '40px',
-				arrows: true,
-				variableWidth: true
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
+			<!-- Initializing slick -->
+			<script type="text/javascript">
+			$(document).ready(function(){
+				$('.slideshow').slick({
+					dots: true,
+					cssEase: 'linear',
+					infinite: true,
+					speed: 300,
+					slidesToShow: 1,
+					centerMode: true,
+					centerPadding: '40px',
+					arrows: true,
+					variableWidth: true
+				});
 			});
-		});
-		</script>
+			</script>
 
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-64206324-1', 'auto');
-		ga('send', 'pageview');
+			ga('create', 'UA-64206324-1', 'auto');
+			ga('send', 'pageview');
 
-		</script>
+			</script>
 
 
-		<script type="text/javascript" src="jquery_radiobutton.js"</script>
-
+			<script type="text/javascript" src="jquery_radiobutton.js"</script>
 
 
 
-		</body>
-		</html>
+
+
+
+
+			</body>
+			</html>
