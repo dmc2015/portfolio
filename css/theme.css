@@ -88,7 +88,10 @@ h1 .aboutme{
 	margin-left: 10%;
 	margin-right: 15%;
 	padding-top: 5%;
+	max-height: 450px;
 }
+
+
 
 .portfolio-heading{
 	margin-top:0;

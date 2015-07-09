@@ -17,15 +17,76 @@
 }
 
 
-p.text-center.panel.about-slider {
+p.text-center.panel.about-slider{
   max-width: 25%;
 
 }
 
 
 .about-slider{
-  margin-bottom:0%;
+  margin-bottom: 0%;
 }
+
+.about-list{
+
+}
+
+/*.talents{
+  padding-left: 20px;
+}*/
+
+
+/*.slick-list.draggable li.slick-slide {
+  width: 5%;
+}*/
+
+/*li.about-list.slick-slide.slick-active.slick-center {
+  padding: 20px;
+}*/
+
+/*.panel li, .panel dl {
+  color: #333;
+}
+
+li.about-list.slick-slide {
+  padding: 20px;
+  background-color: #003836;
+}*/
+
+.about-list, .about-listslickactive{
+  padding: .1%;
+  padding-right: .3%;
+  margin: .1%;
+  background-color: #003836;
+}
+
+li.about-list{
+  border: 3px solid white;
+}
+
+.more-about{
+  background-image: url("../images/zwartevilt.png");
+}
+
+.slick-list {
+  padding: 0px 40px;
+  clear: both;
+}
+
+.more-about.row{
+  max-width: 100%;
+}
+
+.about-headings{
+  
+}
+
+/*.so-excited{
+  padding-left: 20px;
+}*/
+
+/*003836*/
+
 /*@media(max-width: 1307px){
   #skills{
     margin-left:0px;
