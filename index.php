@@ -29,7 +29,7 @@
 
 
 	<link rel="stylesheet" type="text/css" href="css/customcontact.css"/>
-	<link rel="stylesheet" type="text/css" href="css/skills.css"/>
+	<link rel="stylesheet" type="text/css" href="css/about.css"/>
 
 
 </head>
