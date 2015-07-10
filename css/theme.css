@@ -38,7 +38,7 @@ margin-top: 5%;
 	display: block;
 	margin-bottom: %;
 	padding-bottom: 0%;
-	margin-left: 15px;
+	/*margin-left: 15px;*/
 	font-weight: bold;
 	letter-spacing: 2px;
 }
@@ -75,21 +75,21 @@ h1 .aboutme{
 	margin-bottom: 0;
 }
 
-
+/*
 .pro_photo{
 	float:left;
-	/*clear:both;*/
-	/*margin-left: 30%;
-	margin-right: 30%;*/
-	/*padding-left: 40%;
-	padding-right: 40%;*/
+	clear:both;
+	margin-left: 30%;
+	margin-right: 30%;
+	padding-left: 40%;
+	padding-right: 40%;
 	max-width: 25%;
 	display: inline;
 	margin-left: 10%;
 	margin-right: 15%;
 	padding-top: 5%;
 	max-height: 450px;
-}
+}*/
 
 
 
