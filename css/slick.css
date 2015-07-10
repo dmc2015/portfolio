@@ -71,6 +71,7 @@ button{
 
 button::before{
   background-color: #000;
+  /*background-color: #00B9AB;*/
 }
 
 /*.slick-dots{
@@ -78,8 +79,8 @@ background-color: #ccc;
 }*/
 
 .project img{
-  opacity: .75;
-  filter: alpha(opacity=40);
+  /*opacity: .75;*/
+  /*filter: alpha(opacity=40);*/
 }
 
 

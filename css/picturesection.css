@@ -1,0 +1,43 @@
+.image {
+  clear: both;
+  padding: 0 45% 0 45%;
+  height: 200px;
+  background-color: black;
+  /* border-left: dotted yellow; */
+  /* border-right: dotted yellow; */
+  border: 5px dotted yellow;
+  /* width: 100%; */
+  position: relative;
+  display: block;
+  margin: 0 auto;
+}
+
+.about{
+  margin-top: 20px;
+}
+
+.pro_photo{
+  margin: 0 auto;
+}
+
+/*main{
+  height: 100%;
+}*/
+
+
+.pro_photo::after {
+  clear:both;
+  content:".";
+  display:block;
+  height:0;
+  line-height:0;
+  visibility:hidden;
+}
+section.subsection.about.panel {
+  display: block;
+  /* position: relative; */
+  /* max-height: 100px; */
+  /* clear: both; */
+  /* padding-top: 20%; */
+  margin-top: 0;
+}

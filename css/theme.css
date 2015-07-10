@@ -96,12 +96,18 @@ h1 .aboutme{
 .section-heading{
 	margin-top:0;
 	color: #00B9AB;
-}
+	    /*text-shadow: 0px 3px white, 7px 0px #00B9AB, 3px 0px #00B9AB, 7px 0px #00B9AB;*/
+			/*text-shadow: -1px -8px white, 1px 0px white,1px 0px white,1px 0px white;
+			color: white;
+			    text-shadow: -4px 0 black, 0 1px black, 4px 0 black, 0 -1px black;*/
+			}
+
 
 .portfolio{
-	/*background-image: url("../images/bg-2-full.jpg");*/
 
 	background-image: url("../images/bg-2-full.jpg");
+	/*background-image: url("../images/bluehex2.png");*/
+
   position: relative;
   max-width: 100%;
   overflow: hidden;

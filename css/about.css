@@ -53,11 +53,16 @@ li.about-list.slick-slide {
   background-color: #003836;
 }*/
 
+
+
+
 .about-list, .about-listslickactive{
   padding: .1%;
   padding-right: .3%;
   margin: .1%;
-  background-color: #003836;
+  /*background-color: #003836;*/
+  background-color: black;
+  color: white;
 }
 
 li.about-list{
