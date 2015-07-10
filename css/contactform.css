@@ -32,7 +32,8 @@ li{
 
 div#contact{
   /*background-color: #BE774C;*/
-  background-image: url("../images/bg-5-full.jpg");
+  /*background-image: url("../images/bg-5-full.jpg");*/
+
 }
 
 
@@ -40,9 +41,9 @@ div.phpfooter{
 background-color: black;
 }
 
-.contact-form *{
+/*.contact-form *{
   color: #ccc;
-}
+}*/
 
 .contact-form input[type="submit"]{
 color: black;

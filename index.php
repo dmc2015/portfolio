@@ -114,7 +114,7 @@
 
 
 				<section  id="portfolio" class="portfolio row">
-					<h1 class="text-center portfolio-heading">Portfolio</h1>
+					<h1 class="text-center section-heading">Portfolio</h1>
 
 					<ul class="slideshow small-block-grid-3">
 						<li class="securitypulse project th">
