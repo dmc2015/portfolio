@@ -31,6 +31,14 @@ p.text-center.panel.about-slider{
 
 }
 
+.aboutme, .about*, .about p, .aboutp{
+  /*margin: 0 auto;
+  display: block;*/
+  padding-left: 20%;
+  padding--right: 20%;
+
+}
+
 /*.talents{
   padding-left: 20px;
 }*/

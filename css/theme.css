@@ -58,18 +58,30 @@ margin-top: 5%;
 h1 .aboutme{
 	font-weight: normal;
 }
-
+#top{
+	color: #00B9AB !important;
+}
 
 .about, .about p, .about h2 .about h1, .about h1{
 	/*background-image: url("../images/bg-1-full.jpg");*/
+	/*color: #ccc;*/
 	color: #ccc;
-	background-color: #0E3636;
+	background-color: black;
+
+	/*background-color: #0E3636;*/
 }
 
 .about{
-	background-color: #0E3636;
+	/*background-color: #0E3636;*/
 }
 
+.top-bar-section ul li>a {
+	color: #00C1AE;
+}
+
+.top-bar .name h1 a{
+	color: #00B9AB;
+}
 
 .panel{
 	margin-bottom: 0;
