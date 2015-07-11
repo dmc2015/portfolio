@@ -35,7 +35,7 @@ p.text-center.panel.about-slider{
   /*margin: 0 auto;
   display: block;*/
   padding-left: 20%;
-  padding--right: 20%;
+  padding-right: 20%;
 
 }
 
@@ -88,6 +88,7 @@ li.about-list{
 
 .more-about.row{
   max-width: 100%;
+  height: 376px;
 }
 
 .about-headings{

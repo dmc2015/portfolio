@@ -11,7 +11,7 @@ body{
 
 
 	/*background-repeat: no-repeat;*/
-	font-family: "Mondo Bongo", "Atomic Age", "Helvetica", "Sans";
+	/*font-family: "Mondo Bongo", "Atomic Age", "Helvetica", "Sans";*/
 	/*background-color: #cccccc;*/
 }
 
@@ -39,14 +39,14 @@ margin-top: 5%;
 	margin-bottom: %;
 	padding-bottom: 0%;
 	/*margin-left: 15px;*/
-	font-weight: bold;
-	letter-spacing: 2px;
+	/*font-weight: bold;*/
+	/*letter-spacing: 2px;*/
 }
 
 .subsection *{
-	font-weight: bold;
+	/*font-weight: bold;*/
 	/*line-height: 200%;*/
-	letter-spacing: 2px;
+	/*letter-spacing: 2px;*/
 }
 
 
@@ -62,13 +62,11 @@ h1 .aboutme{
 	color: #00B9AB !important;
 }
 
-.about, .about p, .about h2 .about h1, .about h1{
-	/*background-image: url("../images/bg-1-full.jpg");*/
+.about, .about p{
+
 	/*color: #ccc;*/
-	color: #ccc;
 	background-color: black;
 
-	/*background-color: #0E3636;*/
 }
 
 .about{
@@ -89,18 +87,18 @@ h1 .aboutme{
 
 /*
 .pro_photo{
-	float:left;
-	clear:both;
-	margin-left: 30%;
-	margin-right: 30%;
-	padding-left: 40%;
-	padding-right: 40%;
-	max-width: 25%;
-	display: inline;
-	margin-left: 10%;
-	margin-right: 15%;
-	padding-top: 5%;
-	max-height: 450px;
+float:left;
+clear:both;
+margin-left: 30%;
+margin-right: 30%;
+padding-left: 40%;
+padding-right: 40%;
+max-width: 25%;
+display: inline;
+margin-left: 10%;
+margin-right: 15%;
+padding-top: 5%;
+max-height: 450px;
 }*/
 
 
@@ -108,33 +106,51 @@ h1 .aboutme{
 .section-heading{
 	margin-top:0;
 	color: #00B9AB;
-	    /*text-shadow: 0px 3px white, 7px 0px #00B9AB, 3px 0px #00B9AB, 7px 0px #00B9AB;*/
-			/*text-shadow: -1px -8px white, 1px 0px white,1px 0px white,1px 0px white;
-			color: white;
-			    text-shadow: -4px 0 black, 0 1px black, 4px 0 black, 0 -1px black;*/
-			}
+	/*text-shadow: 0px 3px white, 7px 0px #00B9AB, 3px 0px #00B9AB, 7px 0px #00B9AB;*/
+	/*text-shadow: -1px -8px white, 1px 0px white,1px 0px white,1px 0px white;
+	color: white;
+	text-shadow: -4px 0 black, 0 1px black, 4px 0 black, 0 -1px black;*/
+}
 
+h1 small, small{
+	color: white;
+}
+
+.panel h1{
+	color: #00B9AB;
+
+}
+.aboutme{
+	color: #00B9AB;
+}
+
+.name{
+	color: #00B9AB;
+}
+
+.panel p{
+	color: white;
+}
 
 .portfolio{
-
-	background-image: url("../images/bg-2-full.jpg");
+	/*background-image: url("../images/bg-2-full.jpg");*/
 	/*background-image: url("../images/bluehex2.png");*/
-
-  position: relative;
-  max-width: 100%;
-  overflow: hidden;
+	background-image: url("../images/bluehex3.png");
+	position: relative;
+	max-width: 100%;
+	overflow: hidden;
 }
 
-}
 
-html *.{
+
+html *{
 	margin-right:0;
 	padding-right:0;
 }
 
 #portfolio{
-padding-top: 6%;
-padding-bottom: 12%;
+	padding-top: 6%;
+	padding-bottom: 12%;
 
 }
 
@@ -147,13 +163,13 @@ html .js .flexbox .flexboxlegacy .canvas canvastext webgl no-touch geolocation p
 
 /*
 .main-nav li a{
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	/*font-stretch: semi-expanded;*/
-	/*font-size: 30px;*/
-	/*margin-right: 130px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: block;
+/*font-stretch: semi-expanded;*/
+/*font-size: 30px;*/
+/*margin-right: 130px;
 }*/
 
 /*body nav{
