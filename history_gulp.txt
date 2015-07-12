@@ -1,0 +1,16 @@
+ 1142  gulp
+ 1143  touch css/test.css
+ 1144  ls -a css/
+ 1145  gulp
+ 1146  npm update
+ 1147  npm -v
+ 1148  gulp
+ 1149  gulp
+ 1150  gulp
+ 1151  gulp
+ 1152  gulp
+ 1153  gulp
+ 1154  gulp
+ 1155  gulp
+ 1156  history > history.txt
+ 1157  ls *his*

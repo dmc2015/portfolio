@@ -12,6 +12,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "slick.js": "~1.5.5"
+    "slick.js": "~1.5.5",
+    "foundation": "~5.5.2"
   }
 }

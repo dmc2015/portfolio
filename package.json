@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "home page portfolio page about contact",
+  "main": "jquery_radiobutton.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmc2015/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmc2015/portfolio/issues"
+  },
+  "homepage": "https://github.com/dmc2015/portfolio",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-sass": "^2.0.3"
+  }
+}
