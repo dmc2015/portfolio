@@ -1,0 +1,117 @@
+/*#skills{
+  margin:30%;
+  color: white;
+  padding-bottom: 40px;
+  margin-bottom: 1%;
+  margin-left: 50%;
+}*/
+
+
+/*.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
+  color: #ccc;
+}*/
+
+
+#skills *{
+  color: #ccc;
+}
+
+
+p.text-center.panel.about-slider{
+  max-width: 25%;
+
+}
+
+
+.about-slider{
+  margin-bottom: 0%;
+}
+
+.about-list{
+
+}
+
+.aboutme, .about*, .about p, .aboutp{
+  /*margin: 0 auto;
+  display: block;*/
+  padding-left: 20%;
+  padding-right: 20%;
+
+}
+
+/*.talents{
+  padding-left: 20px;
+}*/
+
+
+/*.slick-list.draggable li.slick-slide {
+  width: 5%;
+}*/
+
+/*li.about-list.slick-slide.slick-active.slick-center {
+  padding: 20px;
+}*/
+
+/*.panel li, .panel dl {
+  color: #333;
+}
+
+li.about-list.slick-slide {
+  padding: 20px;
+  background-color: #003836;
+}*/
+
+
+
+
+.about-list, .about-listslickactive{
+  padding: .1%;
+  padding-right: .3%;
+  margin: .1%;
+  /*background-color: #003836;*/
+  background-color: black;
+  color: white;
+}
+
+li.about-list{
+  border: 4px solid white;
+}
+
+.more-about{
+  background-image: url("../images/zwartevilt.png");
+}
+
+.slick-list {
+  padding: 0px 40px;
+  clear: both;
+}
+
+.more-about.row{
+  max-width: 100%;
+  height: 376px;
+}
+
+.about-headings{
+
+}
+
+li.slick-slide{
+  border-color: #00B9AB;
+}
+
+/*<div class="slick-track" style="opacity: 1; width: 25000px; transform: translate3d(-2861px, 0px, 0px);"><li class="about-list slick-slide slick-cloned" data-slick-index="-2" aria-hidden="true">*/
+
+div .slick-track{
+  /*max-width: 100% !important;*/
+}
+/*.so-excited{
+  padding-left: 20px;
+}*/
+
+/*003836*/
+
+/*@media(max-width: 1307px){
+  #skills{
+    margin-left:0px;
+  }
+}*/
