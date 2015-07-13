@@ -1,8 +1,22 @@
 {
-  "name": "foundation-compass-app",
+  "name": "portfolio",
   "version": "0.0.1",
   "private": "true",
+  "homepage": "https://github.com/dmc2015/portfolio",
+  "authors": [
+    "Don McLamb <mclamb.donald@gmail.com>"
+  ],
   "dependencies": {
-    "foundation": "zurb/bower-foundation"
+    "foundaiton": "zurb/bower-foundation"
+  },
+  "description": "portfolio",
+  "main": "index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "slick.js": "~1.5.5"
   }
+
 }

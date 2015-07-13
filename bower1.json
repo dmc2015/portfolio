@@ -15,3 +15,13 @@
     "slick.js": "~1.5.5"
   }
 }
+
+
+//{
+  "name": "foundation-compass-app",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  }
+}//
