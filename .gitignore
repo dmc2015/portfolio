@@ -1,2 +1,4 @@
-#Ignoring PHP Composer vendor folder#
-vendor/*
+/bower_components/*
+/.sass-cache/*
+*.DS_Store
+/stylesheets/*
