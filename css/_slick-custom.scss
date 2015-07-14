@@ -117,7 +117,7 @@ opacity: 0.75;
 }
 
 .slick-slide {
-  margin: .20%;
+  margin: .50%;
   }
 
 
@@ -142,3 +142,20 @@ padding: 20%;
 float
 
 }*/
+
+.slick-prev:before, .slick-next:before {
+  color: #00B9AB;
+  box-shadow: 1px 1px 11px 6px #00B9AB;
+}
+
+
+//MADE ADJUSTMENT FOR HOVER ISSUE ON ERROR IN THE SOURCE OF SLICK CAROUSEL, SEEMS THAT AFTER AN ARROW IS CLICKED ONCE THE HOVER EFFECT IS LOST
+//THIS IS BETTER THEN THE ARROW BEING PARTIALLY INVISIBLE BY A UNSELECTABLE TAG - LINE 74 OF SLICK-THEME.SCSS
+// &:hover, &:focus {
+//     outline: none;
+//     background: transparent;
+//     color: transparent;
+//     &:before {
+//         opacity: $slick-opacity-on-hover;
+//     }
+//}

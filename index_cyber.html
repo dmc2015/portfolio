@@ -118,19 +118,23 @@
 		<h1  class="aboutme text-center">About Me</h1>
 		<h1 class="name text-center">Don McLamb</h1>
 
-		<p>I am a full-stack web developer and a graduate from General Assembly's web development immersive program.</p>
+		<p class="show-on-shrink text-center aboutp">I am a full-stack web developer, graduate from General Assembly's web development immersive program with a Bachelors in Social Science and a Masters in Cybersecurity</p>
 
-		<p>Prior to that I received my B.S. in Psychology and Sociology from Towson University, worked in software support for three years and I received my Masters in CyberSecurity from UMUC in December of 2014.</p>
+		<p class="hide-on-shrink text-center aboutp">I am a full-stack web developer and a graduate from General Assembly's web development immersive program.</p>
 
-		<p>Cyberdesigns.io is a freelance company that I am starting to continue developing my skillset, feel free to review my <a  href="#portfolio">Portfolio</a>, ask me questions and reach out to me via e-mail or social media.</p>
-		<p>Thanks for stopping by!</p>
+		<p class="hide-on-shrink text-center aboutp">Prior to that I received my B.S. in Psychology and Sociology from Towson University, worked in software support for three years and I received my Masters in CyberSecurity from UMUC in December of 2014.</p>
+
+		<p class="text-center aboutp">Cyberdesigns.io is a freelance company that I am starting to continue developing my skillset.</p>
+
+		<p class="text-center aboutp">Feel free to review my <a  href="#portfolio">Portfolio</a>, ask me questions and reach out to me via e-mail or social media.</p>
+		<p class="text-center aboutp">Thanks for stopping by!</p>
 	</section>
 </section>
 
 <section  id="" class="more-about row">
 	<h1 class="text-center section-heading">More About Me:</h1>
 
-	<ul class="slideshow small-block-grid-3">
+	<ul class="slideshow-about">
 
 		<li class="about-list">
 			<p class="about-slider text-center about-headings">Skills:</p>
@@ -271,7 +275,21 @@ $(document).ready(function(){
 		centerMode: true,
 		centerPadding: '40px',
 		arrows: true,
-		variableWidth: true
+		variableWidth: false,
+		// adaptiveHeight: true
+	});
+	$('.slideshow-about').slick({
+		dots: true,
+		cssEase: 'linear',
+		infinite: true,
+		speed: 300,
+		slidesToShow: 1,
+		centerMode: true,
+		centerPadding: '10px',
+		arrows: true,
+		// respondTo:'min',
+		variableWidth: false,
+		// adaptiveHeight: true
 	});
 });
 </script>
@@ -288,7 +306,7 @@ ga('send', 'pageview');
 </script>
 
 
-<script type="text/javascript" src="jquery_radiobutton.js"</script>
+<!-- <script type="text/javascript" src="jquery_radiobutton.js"</script> -->
 
 
 
