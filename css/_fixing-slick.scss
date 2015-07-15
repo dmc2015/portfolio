@@ -1,0 +1,26 @@
+
+.slick-initialized .slick-slide {
+  background: transparent;
+  border: none;
+}
+.slick-initialized .slick-slide div {
+  border: 5px solid lightblue;
+  display: table;
+  margin: 0 auto;
+}
+
+.slick-initialized .slick-slide div a{
+  display: td;
+}
+
+.slick-initialized .slick-slide div a img{
+  display: block;
+}
+
+.slick-initialized .slick-slide div p{
+  display: td;
+  margin: 0px;
+  background-color: #F3F2F3;
+  padding: 10px;
+  box-sizing: border-box;
+}
