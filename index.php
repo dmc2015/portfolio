@@ -91,7 +91,7 @@
 						<a href="#contact">Contact</a>
 					</li>
 					<li>
-						<a href="docs/resume.pdf">Resume</a>
+						<a href="docs/_resume.pdf">Resume</a>
 					</li>
 				</ul>
 
@@ -144,7 +144,7 @@
 				<p class="about-slider text-left">* Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p>
 				<p class="about-slider text-left">* Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p>
 				<p class="about-slider text-left">* Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, Bower, NPM</p>
-				<p class="about-slider text-left">* More Inside My<a href="docs/resume.pdf"> Resume</a></p>
+				<p class="about-slider text-left">* More Inside My<a href="docs/_resume.pdf"> Resume</a></p>
 			</li>
 
 			<li class="text-left about-list">
