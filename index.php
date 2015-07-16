@@ -284,10 +284,10 @@ $(document).ready(function(){
 		centerPadding: '40px',
 		arrows: true,
 		variableWidth: false,
-		// adaptiveHeight: true
+		adaptiveHeight: true
 	});
 	$('.slideshow-about').slick({
-		dots: true,
+		dots: false,
 		cssEase: 'linear',
 		infinite: true,
 		speed: 300,
@@ -298,16 +298,23 @@ $(document).ready(function(){
 		arrows: true,
 		// respondTo:'min',
 		variableWidth: false,
-		// adaptiveHeight: true
+		adaptiveHeight: true
 	});
 });
+
+
 
 // infinite: true,
 //   slidesToShow: 3,
 //   slidesToScroll: 3
 
 
+
+
 </script>
+
+<link rel="stylesheet" href="css/mobile-dots-remove.css"/>
+
 
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
