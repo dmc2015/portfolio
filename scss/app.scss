@@ -2,8 +2,8 @@
 @import "foundation";
 @import "../css/theme";
 @import "../css/layout";
-@import "../css/slick";
-@import "../css/slick-theme";
+@import "../css/_slick";
+@import "../css/_slick-theme";
 @import "../css/slick-custom";
 @import "../css/customcontact";
 @import "../css/about";
@@ -11,6 +11,10 @@
 @import "../css/fonts";
 @import "../css/media-queries";
 @import "../css/fixing-slider";
+// @import "../fonts/slick.eot";
+// @import "../fonts/slick.svg";
+// @import "../fonts/slick.ttf";
+// @import "..fonts/slick.woff";
 
 // @import "../css/browserspecific";
 // @import "../css/normalize";
