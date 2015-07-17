@@ -6816,8 +6816,8 @@ table tr td {
 viewport 897px x 737px*/
 /* line 119, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width: 950px)/";
-  width: 950px;
+  font-family: "/only screen and (min-width: 960px)/";
+  width: 960px;
 }
 
 /* Wrapped around .top-bar to contain to grid width */
@@ -7344,7 +7344,7 @@ meta.foundation-mq-topbar {
   display: block;
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 960px) {
   /* line 498, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
     background: #333333;
@@ -10167,117 +10167,10 @@ float
   box-shadow: 1px 1px 11px 6px #00B9AB;
 }
 
-/* line 1, ../css/_customcontact.scss */
-label.required {
-  color: red;
-}
-
-/* line 5, ../css/_customcontact.scss */
-.inline-label {
-  display: inline-block;
-}
-
-/* line 10, ../css/_customcontact.scss */
-input#field_message {
-  width: 100%;
-  height: 200%;
-  padding-bottom: 10%;
-}
-
-/* line 17, ../css/_customcontact.scss */
-input[type="checkbox"] + label, input[type="radio"] + label {
-  margin-left: 2%;
-  margin-right: 2%;
-}
-
-/* line 23, ../css/_customcontact.scss */
-.submit {
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-
-/* line 29, ../css/_customcontact.scss */
-input#field_submit {
-  padding-right: 7%;
-  padding-left: 7%;
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
-/*input[value="Send Message"]{
-  margin-right: -30px;
-}*/
-/*.contact-form input{
-  color: black;
-}
-
-input[type="text"]{
-  color: black;
-}*/
-/* line 51, ../css/_customcontact.scss */
-.contact-form div input {
-  color: black;
-}
-
-/* line 55, ../css/_customcontact.scss */
-input[type="text"] {
-  color: black;
-}
-
-/* line 59, ../css/_customcontact.scss */
-input #field_message {
-  color: black;
-}
-
-/* line 63, ../css/_customcontact.scss */
-*[placeholder="Compose Message"] {
-  color: red;
-}
-
-/*EMAILFORM*/
-/* line 68, ../css/_customcontact.scss */
-.email-contact {
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-bottom: 5%;
-}
-
-/* line 75, ../css/_customcontact.scss */
-.default-contact {
-  padding-bottom: 10px;
-}
-
-/*::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, ms-input-placeholder{
-   color: black;
-}*/
-/* line 86, ../css/_customcontact.scss */
-.default-contact a {
-  color: black;
-}
-
-/*
-::-webkit-input-placeholder {
-   color: black;
-}
-
-:-moz-placeholder {
-   color: black;
-}
-
-::-moz-placeholder {
-   color: black;
-}
-
-:-ms-input-placeholder {
-   color: black;
-}
-*/
-/* line 108, ../css/_customcontact.scss */
-div#contact {
-  /*background-color: #BE774C;*/
-  /*background-image: url("../images/bg-5-full.jpg");*/
-  background-image: url("../images/black_linen_v2.png");
-  /*background-image: url("../images/bluehex2.png");*/
+/* line 160, ../css/_slick-custom.scss */
+ul.slick-dots {
+  margin: auto;
+  top: 5px;
 }
 
 /*#skills{
@@ -10371,6 +10264,11 @@ li.slick-slide {
 /* line 105, ../css/_about.scss */
 div .slick-track {
   /*max-width: 100% !important;*/
+}
+
+/* line 109, ../css/_about.scss */
+.about-spacing {
+  margin-bottom: 1%;
 }
 
 /*.so-excited{
@@ -10598,7 +10496,7 @@ viewport 897px x 737px*/
   /* line 63, ../css/_media-queries.scss */
   .more-about.row {
     max-width: 100%;
-    height: 500px;
+    height: 600px;
   }
 }
 /* line 75, ../css/_media-queries.scss */
@@ -10606,6 +10504,29 @@ viewport 897px x 737px*/
   width: 100px;
 }
 
+@media screen and (max-width: 400px) {
+  /* line 80, ../css/_media-queries.scss */
+  .slick-prev {
+    left: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  /* line 88, ../css/_media-queries.scss */
+  .slick-next {
+    right: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 96, ../css/_media-queries.scss */
+  #top, .top-bar .name h1 a {
+    font-size: 113%;
+  }
+
+  /* line 99, ../css/_media-queries.scss */
+  .menu {
+    font-size: 60%;
+  }
+}
 /* line 1, ../css/_fixing-slider.scss */
 div.fixing-slider {
   width: 80%;
@@ -10700,4 +10621,122 @@ main {
   #portfilio {
     height: 100%;
   }
+}
+/* line 1, ../css/_customcontact.scss */
+label.required {
+  color: red;
+}
+
+/* line 5, ../css/_customcontact.scss */
+.inline-label {
+  display: inline-block;
+}
+
+/* line 10, ../css/_customcontact.scss */
+input#field_message {
+  width: 100%;
+  height: 200%;
+  padding-bottom: 10%;
+}
+
+/* line 17, ../css/_customcontact.scss */
+input[type="checkbox"] + label, input[type="radio"] + label {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* line 23, ../css/_customcontact.scss */
+.submit {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+/* line 29, ../css/_customcontact.scss */
+input#field_submit {
+  padding-right: 7%;
+  padding-left: 7%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/*input[value="Send Message"]{
+  margin-right: -30px;
+}*/
+/*.contact-form input{
+  color: black;
+}
+
+input[type="text"]{
+  color: black;
+}*/
+/* line 51, ../css/_customcontact.scss */
+.contact-form div input {
+  color: black;
+}
+
+/* line 55, ../css/_customcontact.scss */
+input[type="text"] {
+  color: black;
+}
+
+/* line 59, ../css/_customcontact.scss */
+input #field_message {
+  color: black;
+}
+
+/* line 63, ../css/_customcontact.scss */
+*[placeholder="Compose Message"] {
+  color: red;
+}
+
+/*EMAILFORM*/
+/* line 68, ../css/_customcontact.scss */
+.email-contact {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 5%;
+}
+
+/* line 74, ../css/_customcontact.scss */
+#contact > a > p {
+  font-weight: 500 !important;
+  font-size: 30px;
+}
+
+/* line 80, ../css/_customcontact.scss */
+.default-contact {
+  padding-bottom: 10px;
+}
+
+/*::-webkit-input-placeholder, :-moz-placeholder, ::-moz-placeholder, ms-input-placeholder{
+   color: black;
+}*/
+/* line 91, ../css/_customcontact.scss */
+.default-contact a {
+  color: black;
+}
+
+/*
+::-webkit-input-placeholder {
+   color: black;
+}
+
+:-moz-placeholder {
+   color: black;
+}
+
+::-moz-placeholder {
+   color: black;
+}
+
+:-ms-input-placeholder {
+   color: black;
+}
+*/
+/* line 113, ../css/_customcontact.scss */
+div#contact {
+  /*background-color: #BE774C;*/
+  /*background-image: url("../images/bg-5-full.jpg");*/
+  background-image: url("../images/black_linen_v2.png");
+  /*background-image: url("../images/bluehex2.png");*/
 }

@@ -62,7 +62,7 @@ viewport 897px x 737px*/
   // }
   .more-about.row {
     max-width: 100%;
-    height: 500px;
+    height: 600px;
   }
   // li.about-list.slick-slide.slick-active.slick-center {
   // margin-right: 20px;
@@ -74,4 +74,29 @@ viewport 897px x 737px*/
 
 #portfolio > ul > div > div > li.securitypulse.slick-slide.slick-active{
   width: 100px;
+}
+
+@media screen and(max-width: 400px){
+  .slick-prev {
+    left: 10px;
+
+  }
+
+}
+
+@media screen and(max-width: 400px){
+  .slick-next {
+    right: 10px;
+
+  }
+
+}
+
+@media screen and(max-width: 480px){
+  #top, .top-bar .name h1 a {
+    font-size: 113%;
+  }
+  .menu{
+    font-size: 60%;
+  }
 }

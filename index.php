@@ -74,7 +74,7 @@
 					<h1><a href="#top">CyberDesigns.io <small>by  Don McLamb</small></a></h1>
 				</li>
 				<li class="toggle-topbar menu-icon">
-					<a href="#"><span>Menu</span></a>
+					<a href="#"><span class="menu">Menu</span></a>
 				</li>
 			</ul>
 
@@ -139,42 +139,42 @@
 
 			<li class="about-list">
 				<p class="about-slider text-center about-headings">Skills:</p>
-				<p class="about-slider text-left">* HTML5</p>
-				<p class="about-slider text-left">* CSS3 - Foundations, SASS, Compass</p>
-				<p class="about-slider text-left">* Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p>
-				<p class="about-slider text-left">* Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p>
-				<p class="about-slider text-left">* Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, Bower, NPM</p>
-				<p class="about-slider text-left">* More Inside My<a href="docs/_resume.pdf"> Resume</a></p>
+				<p class="about-slider text-left">&#9673; HTML5</p>
+				<p class="about-slider text-left">&#9673; CSS3 - Foundations, SASS, Compass</p>
+				<p class="about-slider text-left">&#9673; Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p>
+				<p class="about-slider text-left">&#9673; Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p>
+				<p class="about-slider text-left">&#9673; Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, Bower, NPM</p>
+				<p class="about-slider text-left">&#9673; More Inside My<a href="docs/_resume.pdf"> Resume</a></p>
 			</li>
 
 			<li class="text-left about-list">
 				<p class="about-slider text-center about-headings">What I’m excited about:</p>
-				<p class="about-slider text-left">* Using javascript to develop apps that are responsive on multiple device platforms</p>
-				<p class="about-slider text-left">* Next generation mobile devices</p>
-				<p class="about-slider text-left">* Penetration testing</p>
-				<p class="about-slider text-left">* Incorporating advanced security features into apps and developing security related apps and other security systems</p>
+				<p class="about-slider text-left about-spacing">&#9673; Using javascript to develop apps that are responsive on multiple device platforms</p>
+				<p class="about-slider text-left about-spacing">&#9673; Next generation mobile devices</p>
+				<p class="about-slider text-left about-spacing">&#9673; Penetration testing</p>
+				<p class="about-slider text-left about-spacing">&#9673; Incorporating advanced security features into apps and developing security related apps and other security systems</p>
 			</li>
 
 			<li class="about-list">
 				<p class="about-slider text-center passions about-headings">Passions:</p>
-				<p class="about-slider text-left">* Learning new things</p>
-				<p class="about-slider text-left">* Problem solving</p>
-				<p class="about-slider text-left">* Tai Chi Chuan</p>
-				<p class="about-slider text-left">* Working out</p>
+				<p class="about-slider text-left about-spacing">&#9673; Learning new things</p>
+				<p class="about-slider text-left about-spacing">&#9673; Problem solving</p>
+				<p class="about-slider text-left about-spacing">&#9673; Tai Chi Chuan</p>
+				<p class="about-slider text-left about-spacing">&#9673; Working out</p>
 			</li>
 
 			<li class="about-list">
 				<p class="about-slider text-center about-headings">Talents:</p>
-				<p class="about-slider text-left">* Resourcefulness</p>
-				<p class="about-slider text-left">* Persistence</p>
-				<p class="about-slider text-left">* Adaptability</p>
+				<p class="about-slider text-left about-spacing">&#9673; Resourcefulness</p>
+				<p class="about-slider text-left about-spacing">&#9673; Persistence</p>
+				<p class="about-slider text-left about-spacing">&#9673; Adaptability</p>
 			</li>
 
 			<li class="about-list">
 				<p class="about-slider text-center about-headings">What I am looking for:</p>
-				<p class="about-slider text-left">* Permanent positions as a front-end, back-end or full-stack developer</p>
-				<p class="about-slider text-left">* Cybersecurity positions</p>
-				<p class="about-slider text-left">* Freelance work</p>
+				<p class="about-slider text-left about-spacing">&#9673; Permanent positions as a front-end, back-end or full-stack developer</p>
+				<p class="about-slider text-left about-spacing">&#9673; Cybersecurity positions</p>
+				<p class="about-slider text-left about-spacing">&#9673; Freelance work</p>
 			</li>
 
 		</ul>
@@ -200,49 +200,50 @@
 
 	<div text-center class="portfolio-slider-container">
 
-	<ul class="slideshow small-block-grid-3">
-		<li class="securitypulse project th">
+		<ul class="slideshow small-block-grid-3">
+			<li class="securitypulse project th">
 
-			<a  href="http://securitypulse.herokuapp.com"> <img src="images/securitypulse_1.png"/> </a>
-			<p class="text-center panel">A application designed encouraging and supporting a
-				secure web.</p>
-			</li>
+				<a  href="http://securitypulse.herokuapp.com"> <img src="images/securitypulse_1.png"/> </a>
+				<p class="text-center panel">A application designed encouraging and supporting a
+					secure web.</p>
+				</li>
 
-			<li class="policonnect project th">
-				<a class="" href="http://www.policonnect.org"> <img src="images/policonnect_1.png"/></a>
-				<p class="text-center panel">A group project to connect policymakers to experts in order to inform policymakers when making decisions.</p>
-			</li>
+				<li class="policonnect project th">
+					<a class="" href="http://www.policonnect.org"> <img src="images/policonnect_1.png"/></a>
+					<p class="text-center panel">A group project to connect policymakers to experts in order to inform policymakers when making decisions.</p>
+				</li>
 
-			<!-- <li class="postpoll project th">
-			<a class="" href="http://localhost:3000"> <img src="images/postpoll.png"/></a>
-			</li> -->
+				<!-- <li class="postpoll project th">
+				<a class="" href="http://localhost:3000"> <img src="images/postpoll.png"/></a>
+				</li> -->
 
-			<li class="writershub project th">
-				<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/writershub_1.png"/></a>
-				<p class="text-center panel">A group project to assist writers in promoting their work and allow readers an opprotunity to read short stories.</p>
-			</li>
+				<li class="writershub project th">
+					<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/writershub_1.png"/></a>
+					<p class="text-center panel">A group project to assist writers in promoting their work and allow readers an opprotunity to read short stories.</p>
+				</li>
 
-			<li class="daytrackr project th">
-				<a class="" href="http://daytrackr.meteor.com"> <img src="images/daytrackr.png"/></a>
-				<p class="text-center panel">Prototype project for Meteor.js, a organizational app.</p>
-			</li>
+				<li class="daytrackr project th">
+					<a class="" href="http://daytrackr.meteor.com"> <img src="images/daytrackr.png"/></a>
+					<p class="text-center panel">Prototype project for Meteor.js, a organizational app.</p>
+				</li>
 
-			<!-- <li class="todo project th">
-			<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/"/></a>
-			<p class="text-center panel">A app mobile and web app created with Meteor.js that allows one to track their daily tasks.</p>
-			</li> -->
+				<!-- <li class="todo project th">
+				<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/"/></a>
+				<p class="text-center panel">A app mobile and web app created with Meteor.js that allows one to track their daily tasks.</p>
+				</li> -->
 
-		</ul>
+			</ul>
 
-	</div>
+		</div>
 	</section>
 	<div id="contact" class="contact-form default-contact">
 
 		<h1 class="text-center contact-padding section-heading">Contact Me:</h1>
-
-		<p class="panel text-center email-contact">
-			<a href="mailto:mclamb.donald@gmail.com?subject=Hi I just saw your profile!">E-mail</a>
-		</p>
+		<a href="mailto:mclamb.donald@gmail.com?subject=Hi I just saw your profile!">
+			<p class="panel text-center email-contact">
+				E-mail
+			</p>
+		</a>
 		<!-- <php include("custom_form.php"); ?> -->
 		<!-- <div class="g-recaptcha" data-sitekey="6LcJdAgTAAAAAFNtfMQDBij8f1N6k8nCPk24ENv6"></div> -->
 

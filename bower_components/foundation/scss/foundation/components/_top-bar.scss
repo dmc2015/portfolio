@@ -78,7 +78,7 @@ $topbar-transition-speed: 300ms !default;
 // $topbar-breakpoint: #{lower-bound($medium-range)} !default; // Change to 9999px for always mobile layout
 // $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
 
-$topbar-breakpoint: 950px; // Change to 9999px for always mobile layout
+$topbar-breakpoint: 960px; // Change to 9999px for always mobile layout
 $topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})" !default;
 
 /*window 897px x 873px
