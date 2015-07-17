@@ -111,7 +111,9 @@
 
 <main>
 	<section class=" image">
-		<img class="pro_photo" src="images/professional_photo.jpg" alt="Professional Photo"/>
+		<!-- <img class="pro_photo" src="images/professional_photo_smaller.jpg" alt="Professional Photo"/> -->
+		<img class="pro_photo" src="images/me-tall.jpg" alt="Professional Photo"/>
+
 	</section>
 
 	<section id="about" class="subsection about panel">

@@ -9584,24 +9584,24 @@ h1 small, small {
 .portfolio {
   /*background-image: url("../images/bg-2-full.jpg");*/
   /*background-image: url("../images/bluehex2.png");*/
-  background-image: url("../images/bluehex3.png");
+  background-image: url("../images/bluehex3-darker-reflected.png");
   position: relative;
   max-width: 100%;
   overflow: hidden;
 }
 
-/* line 145, ../css/_theme.scss */
+/* line 149, ../css/_theme.scss */
 html * {
   margin-right: 0;
   padding-right: 0;
 }
 
-/* line 150, ../css/_theme.scss */
+/* line 154, ../css/_theme.scss */
 #portfolio {
   padding-top: 6%;
 }
 
-/* line 156, ../css/_theme.scss */
+/* line 160, ../css/_theme.scss */
 .policonnect img {
   margin-right: 0px;
 }
@@ -10737,6 +10737,6 @@ input #field_message {
 div#contact {
   /*background-color: #BE774C;*/
   /*background-image: url("../images/bg-5-full.jpg");*/
-  background-image: url("../images/black_linen_v2.png");
+  background-image: url("../images/zwartevilt.png");
   /*background-image: url("../images/bluehex2.png");*/
 }
