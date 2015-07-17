@@ -211,7 +211,7 @@
 				</li>
 
 				<li class="policonnect project th">
-					<a class="" href="http://www.policonnect.org"> <img src="images/policonnect_1.png"/></a>
+					<a class="" href="http://www.policonnect.org"> <img src="images/policonnect.png"/></a>
 					<p class="text-center panel">A group project to connect policymakers to experts in order to inform policymakers when making decisions.</p>
 				</li>
 
