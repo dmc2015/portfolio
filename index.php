@@ -98,7 +98,7 @@
 				<ul class="right small-4">
 					<li><a href="https://twitter.com/_D__o__N_"> <img class="social" src="images/twitter.png" alt="Twitter Account"/></a></li>
 					<li><a href="https://facebook.com/don.mclamb.16"> <img class="social" src="images/facebook.png" alt="Facebook Account"/></a></li>
-					<li><a href="https://linkedin.com/mclambdon"> <img class="social" src="images/linkedin.png" alt="LinkedIn Account"/></a></li>
+					<li><a href="https://www.linkedin.com/in/mclambdon"> <img class="social" src="images/linkedin.png" alt="LinkedIn Account"/></a></li>
 					<li><a href="https://github.com/dmc2015"><img class="social" src="images/merged-realgreen.png" alt="Github Account"/></a></li>
 				</li>
 			</ul>
