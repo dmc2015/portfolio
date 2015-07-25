@@ -229,6 +229,12 @@
 					<p class="text-center panel">Prototype project for Meteor.js, an organizational app.</p>
 				</li>
 
+				<li class="distil project th">
+					<a class="" href="https://github.com/dmc2015/distill-bots-filter4"> <img src="images/distil-filter.png"/></a>
+					<p class="text-center panel">I created a filter for a prospective employer to sort through the bots on their web page.</p>
+				</li>
+
+
 				<!-- <li class="todo project th">
 				<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/"/></a>
 				<p class="text-center panel">A app mobile and web app created with Meteor.js that allows one to track their daily tasks.</p>
