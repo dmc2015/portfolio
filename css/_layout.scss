@@ -22,9 +22,29 @@ nav ul li a img{
   text-decoration: underline;*/
 }
 
+// .social-list li a{
+// 	padding-left: 0px;
+// 	padding-right: 0px;
+// }
+
+#top > div > nav > section > ul.right.small-4.social-list
+
+
+.social-list {
+  padding-right: 2px;
+}
+
+.main-nav a{
+  padding-right: 15px;
+}
+
 .social-list li a{
-	padding-left: 0px;
-	padding-right: 0px;
+  padding-left: 11px !important;
+  padding-right: 11px !important;
+}
+
+.social-list img{
+  height: 100px;
 }
 
 /*.social a img{

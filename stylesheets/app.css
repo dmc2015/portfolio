@@ -10690,10 +10690,26 @@ nav ul li a img{
   text-decoration: underline;*/
 }
 
-/* line 25, ../css/_layout.scss */
+/* line 30, ../css/_layout.scss */
+#top > div > nav > section > ul.right.small-4.social-list
+.social-list {
+  padding-right: 2px;
+}
+
+/* line 37, ../css/_layout.scss */
+.main-nav a {
+  padding-right: 15px;
+}
+
+/* line 41, ../css/_layout.scss */
 .social-list li a {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 11px !important;
+  padding-right: 11px !important;
+}
+
+/* line 46, ../css/_layout.scss */
+.social-list img {
+  height: 100px;
 }
 
 /*.social a img{
