@@ -7041,7 +7041,6 @@ meta.foundation-mq-topbar {
   font-size: 0.8125rem;
   font-weight: normal;
   padding-left: 0.9375rem;
-  padding: 12px 0 12px 0.9375rem;
   text-transform: none;
   width: 100%;
 }
@@ -7427,7 +7426,6 @@ meta.foundation-mq-topbar {
   .top-bar-section li:not(.has-form) a:not(.button) {
     background: #333333;
     line-height: 2.8125rem;
-    padding: 0 0.9375rem;
   }
   /* line 565, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button):hover {
@@ -9642,79 +9640,6 @@ box-shadow: 10px 10px 5px black;
 nav{
 font-size: 300%;
 }*/
-/*.social-imgs{
-  height: 1%;
-
-}
-
-.social{
-  height: 1%;
-
-}
-
-nav ul li a img{
-  height: 1%;
-}*/
-/* line 15, ../css/_layout.scss */
-.social {
-  max-height: 25px;
-  padding-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  /*padding-left: 45%;
-  padding-right: 45%;
-  text-decoration: underline;*/
-}
-
-/*.social a img{
-  width: 3%;
-  height: 3%;
-  display: inline;
-  vertical-align: text-top;
-  float: left;
-  clear: both;
-}
-
-.socal a{
-  max-width: 12px;
-  max-height: 12px;
-  position: inline;
-
-}
-
-.socal{
-  padding-right 10%;
-  position: absolute;
-}
-
-nav ul li{
-  display: inline;
-}
-
-nav{
-  text-align: center;
-  position: relative;
-  padding-bottom: 12%;
-
-}
-
-main{
-  display: inline-block;
-  clear:both;
-  text-align: right;
-}
-
-p{
-  text-align: center;
-  color: white;
-  font-family: Helvetica, Arial, Sans-Serif;
-  font-size: 200%;
-}
-
-.securitypulse{
-  max-width: 25px;
-  max-length: 25px;
-  /*float: left;*/
 /* Slider */
 /* line 3, ../css/_slick.scss */
 .slick-slider {
@@ -10740,3 +10665,83 @@ div#contact {
   background-image: url("../images/zwartevilt.png");
   /*background-image: url("../images/bluehex2.png");*/
 }
+
+/*.social-imgs{
+  height: 1%;
+
+}
+
+.social{
+  height: 1%;
+
+}
+
+nav ul li a img{
+  height: 1%;
+}*/
+/* line 15, ../css/_layout.scss */
+.social {
+  max-height: 25px;
+  padding-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /*padding-left: 45%;
+  padding-right: 45%;
+  text-decoration: underline;*/
+}
+
+/* line 25, ../css/_layout.scss */
+.social-list li a {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/*.social a img{
+  width: 3%;
+  height: 3%;
+  display: inline;
+  vertical-align: text-top;
+  float: left;
+  clear: both;
+}
+
+.socal a{
+  max-width: 12px;
+  max-height: 12px;
+  position: inline;
+
+}
+
+.socal{
+  padding-right 10%;
+  position: absolute;
+}
+
+nav ul li{
+  display: inline;
+}
+
+nav{
+  text-align: center;
+  position: relative;
+  padding-bottom: 12%;
+
+}
+
+main{
+  display: inline-block;
+  clear:both;
+  text-align: right;
+}
+
+p{
+  text-align: center;
+  color: white;
+  font-family: Helvetica, Arial, Sans-Serif;
+  font-size: 200%;
+}
+
+.securitypulse{
+  max-width: 25px;
+  max-length: 25px;
+  /*float: left;*/

@@ -344,7 +344,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
           font-size: $topbar-link-font-size;
           font-weight: $topbar-link-weight;
           padding-#{$default-float}: $topbar-link-padding;
-          padding: 12px 0 12px $topbar-link-padding;
+          //padding: 12px 0 12px $topbar-link-padding;
           text-transform: $topbar-link-text-transform;
           width: 100%;
 
@@ -561,7 +561,7 @@ $topbar-dropdown-arrows: true !default; //Set false to remove the \00bb >> text 
             a:not(.button) {
               background: $topbar-link-bg;
               line-height: $topbar-height;
-              padding: 0 $topbar-link-padding;
+              //padding: 0 $topbar-link-padding;
               &:hover {
                 background-color: $topbar-link-bg-color-hover;
                 @if ($topbar-link-bg-hover) {
