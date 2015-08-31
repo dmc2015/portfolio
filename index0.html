@@ -1,5 +1,4 @@
-
-<!doctype html>
+<!DOCTYPE HTML>
 <html class="no-js" lang="en">
 
 <head>
@@ -47,7 +46,7 @@
 
 
 	<!-- FONTS  -->
-	<link href='http://fonts.googleapis.com/css?family=Lato:100,300|Flamenco:300,400|Advent+Pro:400,100|Orbitron:400,900,500|Merriweather:400,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300%7CFlamenco:300,400%7CAdvent+Pro:400,100%7COrbitron:400,900,500%7CMerriweather:400,300' rel='stylesheet' type='text/css'>
 	<!-- <link rel="stylesheet" type="text/css" href="css/fonts.css"/> -->
 
 
@@ -67,7 +66,7 @@
 <body id="top">
 	<div class="contain-to-grid sticky">
 
-		<nav class="top-bar row" data-topbar>
+		<nav class="top-bar" data-topbar>
 
 			<ul class="title-area">
 				<li class="name">
@@ -82,19 +81,19 @@
 			<section class ="top-bar-section">
 				<ul class="left small-4 main-nav">
 					<li>
-						<a href="#about">About</a>
+						<a href="#about" onclick="blogClose()">About</a>
 					</li>
 					<li>
-						<a  href="#portfolio">Portfolio</a>
+						<a  href="#portfolio" onclick="blogClose()">Portfolio</a>
 					</li>
 					<li>
-						<a href="#contact">Contact</a>
+						<a href="#contact" onclick="blogClose()">Contact</a>
 					</li>
 					<li>
 						<a href="docs/_resume.pdf">Resume</a>
 					</li>
 					<li>
-						<a href="#" class="blog">Blog</a>
+						<a href="#blog" class="blog" onclick="blogOpen()">Blog</a>
 					</li>
 				</ul>
 
@@ -103,96 +102,95 @@
 					<li><a href="https://facebook.com/don.mclamb.16"> <img class="social" src="images/facebook.png" alt="Facebook Account"/></a></li>
 					<li><a href="https://www.linkedin.com/in/mclambdon"> <img class="social" src="images/linkedin.png" alt="LinkedIn Account"/></a></li>
 					<li><a href="https://github.com/dmc2015"><img class="social" src="images/merged-realgreen.png" alt="Github Account"/></a></li>
-			</ul>
-		</section>
-	</nav>
-</div>
-
-
-
-
-<main>
-	<section class=" image">
-		<!-- <img class="pro_photo" src="images/professional_photo_smaller.jpg" alt="Professional Photo"/> -->
-		<img class="pro_photo" src="images/me-tall.jpg" alt="Professional Photo"/>
-
-	</section>
-
-	<section id="about" class="subsection about panel">
-		<h1  class="aboutme text-center">About Me</h1>
-		<h1 class="name text-center">Don McLamb</h1>
-
-		<p class="show-on-shrink text-center aboutp">I am a full-stack web developer, graduate from General Assembly's web development immersive program with a Bachelors in Social Science and a Masters in Cybersecurity</p>
-
-		<p class="hide-on-shrink text-center aboutp">I am a full-stack web developer and a graduate from General Assembly's web development immersive program.</p>
-
-		<p class="hide-on-shrink text-center aboutp">Prior to that I received my B.S. in Psychology and Sociology from Towson University, worked in software support for three years and I received my Masters in CyberSecurity from UMUC in December of 2014.</p>
-
-		<p class="text-center aboutp">Cyberdesigns.io is a freelance company that I am starting to continue developing my skillset.</p>
-
-		<p class="text-center aboutp">Feel free to review my <a  href="#portfolio">Portfolio</a>, ask me questions and reach out to me via e-mail or social media.</p>
-		<p class="text-center aboutp">Thanks for stopping by!</p>
-	</section>
-</section>
-
-<section class="more-about row">
-	<h1 class="text-center section-heading">More About Me:</h1>
-
-	<div class= "fixing-slider">
-		<ul class="slideshow-about">
-
-			<li class="about-list">
-				<p class="about-slider text-center about-headings">Skills:</p>
-				<p class="about-slider text-left">&#9673; HTML5</p>
-				<p class="about-slider text-left">&#9673; CSS3 - Foundations, SASS, Compass</p>
-				<p class="about-slider text-left">&#9673; Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p>
-				<p class="about-slider text-left">&#9673; Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p>
-				<p class="about-slider text-left">&#9673; Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, Bower, NPM</p>
-				<p class="about-slider text-left">&#9673; More Inside My<a href="docs/_resume.pdf"> Resume</a></p>
-			</li>
-
-			<li class="text-left about-list">
-				<p class="about-slider text-center about-headings">What I’m excited about:</p>
-				<p class="about-slider text-left about-spacing">&#9673; Using javascript to develop apps that are responsive on multiple device platforms</p>
-				<p class="about-slider text-left about-spacing">&#9673; Next generation mobile devices</p>
-				<p class="about-slider text-left about-spacing">&#9673; Penetration testing</p>
-				<p class="about-slider text-left about-spacing">&#9673; Incorporating advanced security features into apps and developing security related apps and other security systems</p>
-			</li>
-
-			<li class="about-list">
-				<p class="about-slider text-center passions about-headings">Passions:</p>
-				<p class="about-slider text-left about-spacing">&#9673; Learning new things</p>
-				<p class="about-slider text-left about-spacing">&#9673; Problem solving</p>
-				<p class="about-slider text-left about-spacing">&#9673; Tai Chi Chuan</p>
-				<p class="about-slider text-left about-spacing">&#9673; Working out</p>
-			</li>
-
-			<li class="about-list">
-				<p class="about-slider text-center about-headings">Talents:</p>
-				<p class="about-slider text-left about-spacing">&#9673; Resourcefulness</p>
-				<p class="about-slider text-left about-spacing">&#9673; Persistence</p>
-				<p class="about-slider text-left about-spacing">&#9673; Adaptability</p>
-			</li>
-
-			<li class="about-list">
-				<p class="about-slider text-center about-headings">What I am looking for:</p>
-				<p class="about-slider text-left about-spacing">&#9673; Permanent positions as a front-end, back-end or full-stack developer</p>
-				<p class="about-slider text-left about-spacing">&#9673; Cybersecurity positions</p>
-				<p class="about-slider text-left about-spacing">&#9673; Freelance work</p>
-			</li>
-
-		</ul>
-
+				</ul>
+			</section>
+		</nav>
 	</div>
-</section>
 
-<!-- <h2>Skills:</h2>
-<ul id="skills">
-<li>HTML5</p></li>
-<li>CSS3 - Foundations</p></li>
-<li>Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p></li>
-<li>Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p></li>
-<li>Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, </p></li>
+
+
+
+	<main class="main">
+		<section class=" image">
+			<!-- <img class="pro_photo" src="images/professional_photo_smaller.jpg" alt="Professional Photo"/> -->
+			<img class="pro_photo" src="images/me-tall.jpg" alt="Professional Photo"/>
+
+		</section>
+
+		<section id="about" class="subsection about panel">
+			<h1  class="aboutme text-center">About Me</h1>
+			<h1 class="name text-center">Don McLamb</h1>
+
+			<p class="show-on-shrink text-center aboutp">I am a full-stack web developer, graduate from General Assembly's web development immersive program with a Bachelors in Social Science and a Masters in Cybersecurity</p>
+
+			<p class="hide-on-shrink text-center aboutp">I am a full-stack web developer and a graduate from General Assembly's web development immersive program.</p>
+
+			<p class="hide-on-shrink text-center aboutp">Prior to that I received my B.S. in Psychology and Sociology from Towson University, worked in software support for three years and I received my Masters in CyberSecurity from UMUC in December of 2014.</p>
+
+			<p class="text-center aboutp">Cyberdesigns.io is a freelance company that I am starting to continue developing my skillset.</p>
+
+			<p class="text-center aboutp">Feel free to review my <a  href="#portfolio">Portfolio</a>, ask me questions and reach out to me via e-mail or social media.</p>
+			<p class="text-center aboutp">Thanks for stopping by!</p>
+		</section>
+
+	<section class="more-about row">
+		<h1 class="text-center section-heading">More About Me:</h1>
+
+		<div class= "fixing-slider">
+			<ul class="slideshow-about">
+
+				<li class="about-list">
+					<p class="about-slider text-center about-headings">Skills:</p>
+					<p class="about-slider text-left">&#9673; HTML5</p>
+					<p class="about-slider text-left">&#9673; CSS3 - Foundations, SASS, Compass</p>
+					<p class="about-slider text-left">&#9673; Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p>
+					<p class="about-slider text-left">&#9673; Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p>
+					<p class="about-slider text-left">&#9673; Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, Bower, NPM</p>
+					<p class="about-slider text-left">&#9673; More Inside My<a href="docs/_resume.pdf"> Resume</a></p>
+				</li>
+
+				<li class="text-left about-list">
+					<p class="about-slider text-center about-headings">What I’m excited about:</p>
+					<p class="about-slider text-left about-spacing">&#9673; Using javascript to develop apps that are responsive on multiple device platforms</p>
+					<p class="about-slider text-left about-spacing">&#9673; Next generation mobile devices</p>
+					<p class="about-slider text-left about-spacing">&#9673; Penetration testing</p>
+					<p class="about-slider text-left about-spacing">&#9673; Incorporating advanced security features into apps and developing security related apps and other security systems</p>
+				</li>
+
+				<li class="about-list">
+					<p class="about-slider text-center passions about-headings">Passions:</p>
+					<p class="about-slider text-left about-spacing">&#9673; Learning new things</p>
+					<p class="about-slider text-left about-spacing">&#9673; Problem solving</p>
+					<p class="about-slider text-left about-spacing">&#9673; Tai Chi Chuan</p>
+					<p class="about-slider text-left about-spacing">&#9673; Working out</p>
+				</li>
+
+				<li class="about-list">
+					<p class="about-slider text-center about-headings">Talents:</p>
+					<p class="about-slider text-left about-spacing">&#9673; Resourcefulness</p>
+					<p class="about-slider text-left about-spacing">&#9673; Persistence</p>
+					<p class="about-slider text-left about-spacing">&#9673; Adaptability</p>
+				</li>
+
+				<li class="about-list">
+					<p class="about-slider text-center about-headings">What I am looking for:</p>
+					<p class="about-slider text-left about-spacing">&#9673; Permanent positions as a front-end, back-end or full-stack developer</p>
+					<p class="about-slider text-left about-spacing">&#9673; Cybersecurity positions</p>
+					<p class="about-slider text-left about-spacing">&#9673; Freelance work</p>
+				</li>
+
+			</ul>
+
+		</div>
+	</section>
+
+	<!-- <h2>Skills:</h2>
+	<ul id="skills">
+	<li>HTML5</p></li>
+	<li>CSS3 - Foundations</p></li>
+	<li>Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p></li>
+	<li>Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p></li>
+	<li>Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, </p></li>
 </ul> -->
 
 
@@ -202,65 +200,76 @@
 <section  id="portfolio" class="portfolio row">
 	<h1 class="text-center section-heading">Portfolio</h1>
 
-	<div text-center class="portfolio-slider-container">
+	<div class="portfolio-slider-container">
 
 		<ul class="slideshow small-block-grid-3">
 			<li class="securitypulse project th">
 
-				<a  href="http://securitypulse.herokuapp.com"> <img src="images/securitypulse_1.png"/> </a>
+				<a  href="http://securitypulse.herokuapp.com"> <img src="images/securitypulse_1.png" alt="portfolio image"/> </a>
 				<p class="text-center panel">A application designed encouraging and supporting a
 					secure web.</p>
 				</li>
 
 				<li class="policonnect project th">
-					<a class="" href="http://www.policonnect.org"> <img src="images/policonnect.png"/></a>
+					<a class="" href="http://www.policonnect.org"> <img src="images/policonnect.png" alt="portfolio image"/></a>
 					<p class="text-center panel">A group project to connect policymakers to experts in order to inform policymakers when making decisions.</p>
 				</li>
 
 				<!-- <li class="postpoll project th">
 				<a class="" href="http://localhost:3000"> <img src="images/postpoll.png"/></a>
-				</li> -->
+			</li> -->
 
-				<li class="writershub project th">
-					<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/writershub_1.png"/></a>
-					<p class="text-center panel">A group project to assist writers in promoting their work and allow readers an opprotunity to read short stories.</p>
-				</li>
+			<li class="writershub project th">
+				<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/writershub_1.png" alt="portfolio image"/></a>
+				<p class="text-center panel">A group project to assist writers in promoting their work and allow readers an opprotunity to read short stories.</p>
+			</li>
 
-				<li class="daytrackr project th">
-					<a class="" href="http://daytrackr.meteor.com"> <img src="images/daytrackr.png"/></a>
-					<p class="text-center panel">Prototype project for Meteor.js, an organizational app.</p>
-				</li>
+			<li class="daytrackr project th">
+				<a class="" href="http://daytrackr.meteor.com"> <img src="images/daytrackr.png" alt="portfolio image"/></a>
+				<p class="text-center panel">Prototype project for Meteor.js, an organizational app.</p>
+			</li>
 
-				<li class="distil project th">
-					<a class="" href="https://github.com/dmc2015/distill-bots-filter4"> <img src="images/distil-filter.png"/></a>
-					<p class="text-center panel">I created a filter for a prospective employer to sort through the bots on their web page.</p>
-				</li>
+			<li class="distil project th">
+				<a class="" href="https://github.com/dmc2015/distill-bots-filter4"> <img src="images/distil-filter.png" alt="portfolio image"/></a>
+				<p class="text-center panel">I created a filter for a prospective employer to sort through the bots on their web page.</p>
+			</li>
 
 
-				<!-- <li class="todo project th">
-				<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/"/></a>
-				<p class="text-center panel">A app mobile and web app created with Meteor.js that allows one to track their daily tasks.</p>
-				</li> -->
+			<!-- <li class="todo project th">
+			<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/"/></a>
+			<p class="text-center panel">A app mobile and web app created with Meteor.js that allows one to track their daily tasks.</p>
+		</li> -->
 
-			</ul>
+	</ul>
 
-		</div>
-	</section>
-	<div id="contact" class="contact-form default-contact">
+</div>
+</section>
+<div id="contact" class="contact-form default-contact">
 
-		<h1 class="text-center contact-padding section-heading">Contact Me:</h1>
-		<a href="mailto:mclamb.donald@gmail.com?subject=Hi I just saw your profile!">
-			<p class="panel text-center email-contact">
-				E-mail
-			</p>
-		</a>
-		<!-- <php include("custom_form.php"); ?> -->
-		<!-- <div class="g-recaptcha" data-sitekey="6LcJdAgTAAAAAFNtfMQDBij8f1N6k8nCPk24ENv6"></div> -->
+	<h1 class="text-center contact-padding section-heading">Contact Me:</h1>
+	<a href="mailto:mclamb.donald@gmail.com?subject='Hi I just saw your profile!">
+		<p class="panel text-center email-contact">
+			E-mail
+		</p>
+	</a>
+	<!-- <php include("custom_form.php"); ?> -->
+	<!-- <div class="g-recaptcha" data-sitekey="6LcJdAgTAAAAAFNtfMQDBij8f1N6k8nCPk24ENv6"></div> -->
 
-	</div>
+</div>
 
 
 </main>
+<div id="blog-page" class="blog-hide">
+
+	<div class="blog post1">
+		<p>test</p>
+	</div>
+
+	<div class="blog post2">
+		<p>test</p>
+	</div>
+
+</div>
 
 
 <footer>
@@ -324,7 +333,6 @@ $(document).ready(function(){
 
 </script>
 
-<link rel="stylesheet" href="css/mobile-dots-remove.css"/>
 
 
 <script>

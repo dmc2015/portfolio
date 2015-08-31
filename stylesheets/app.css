@@ -10712,6 +10712,31 @@ nav ul li a img{
   height: 100px;
 }
 
+/* line 50, ../css/_layout.scss */
+.social-list {
+  margin-left: 20px !important;
+}
+
+/* line 54, ../css/_layout.scss */
+#blog-page {
+  font-size: 20px;
+  color: #ccc;
+}
+
+/* line 60, ../css/_layout.scss */
+.blog-hide {
+  display: none !important;
+  font-size: 20px;
+  color: #ccc;
+}
+
+/* line 66, ../css/_layout.scss */
+.blog-show {
+  display: show !important;
+  font-size: 20px;
+  color: #ccc;
+}
+
 /*.social a img{
   width: 3%;
   height: 3%;
