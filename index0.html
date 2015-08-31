@@ -70,7 +70,7 @@
 
 			<ul class="title-area">
 				<li class="name">
-					<h1><a href="#top">CyberDesigns.io <small>by  Don McLamb</small></a></h1>
+					<h1><a href="#top" onclick="blogClose()">CyberDesigns.io <small>by  Don McLamb</small></a></h1>
 				</li>
 				<li class="toggle-topbar menu-icon">
 					<a href="#"><span class="menu">Menu</span></a>
@@ -93,7 +93,7 @@
 						<a href="docs/_resume.pdf">Resume</a>
 					</li>
 					<li>
-						<a href="#blog" class="blog" onclick="blogOpen()">Blog</a>
+						<a href="#blog-page" class="blog" onclick="blogOpen()">Blog</a>
 					</li>
 				</ul>
 
@@ -133,116 +133,116 @@
 			<p class="text-center aboutp">Thanks for stopping by!</p>
 		</section>
 
-	<section class="more-about row">
-		<h1 class="text-center section-heading">More About Me:</h1>
+		<section class="more-about row">
+			<h1 class="text-center section-heading">More About Me:</h1>
 
-		<div class= "fixing-slider">
-			<ul class="slideshow-about">
+			<div class= "fixing-slider">
+				<ul class="slideshow-about">
 
-				<li class="about-list">
-					<p class="about-slider text-center about-headings">Skills:</p>
-					<p class="about-slider text-left">&#9673; HTML5</p>
-					<p class="about-slider text-left">&#9673; CSS3 - Foundations, SASS, Compass</p>
-					<p class="about-slider text-left">&#9673; Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p>
-					<p class="about-slider text-left">&#9673; Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p>
-					<p class="about-slider text-left">&#9673; Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, Bower, NPM</p>
-					<p class="about-slider text-left">&#9673; More Inside My<a href="docs/_resume.pdf"> Resume</a></p>
+					<li class="about-list">
+						<p class="about-slider text-center about-headings">Skills:</p>
+						<p class="about-slider text-left">&#9673; HTML5</p>
+						<p class="about-slider text-left">&#9673; CSS3 - Foundations, SASS, Compass</p>
+						<p class="about-slider text-left">&#9673; Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p>
+						<p class="about-slider text-left">&#9673; Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p>
+						<p class="about-slider text-left">&#9673; Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, Bower, NPM</p>
+						<p class="about-slider text-left">&#9673; More Inside My<a href="docs/_resume.pdf"> Resume</a></p>
+					</li>
+
+					<li class="text-left about-list">
+						<p class="about-slider text-center about-headings">What I’m excited about:</p>
+						<p class="about-slider text-left about-spacing">&#9673; Using javascript to develop apps that are responsive on multiple device platforms</p>
+						<p class="about-slider text-left about-spacing">&#9673; Next generation mobile devices</p>
+						<p class="about-slider text-left about-spacing">&#9673; Penetration testing</p>
+						<p class="about-slider text-left about-spacing">&#9673; Incorporating advanced security features into apps and developing security related apps and other security systems</p>
+					</li>
+
+					<li class="about-list">
+						<p class="about-slider text-center passions about-headings">Passions:</p>
+						<p class="about-slider text-left about-spacing">&#9673; Learning new things</p>
+						<p class="about-slider text-left about-spacing">&#9673; Problem solving</p>
+						<p class="about-slider text-left about-spacing">&#9673; Tai Chi Chuan</p>
+						<p class="about-slider text-left about-spacing">&#9673; Working out</p>
+					</li>
+
+					<li class="about-list">
+						<p class="about-slider text-center about-headings">Talents:</p>
+						<p class="about-slider text-left about-spacing">&#9673; Resourcefulness</p>
+						<p class="about-slider text-left about-spacing">&#9673; Persistence</p>
+						<p class="about-slider text-left about-spacing">&#9673; Adaptability</p>
+					</li>
+
+					<li class="about-list">
+						<p class="about-slider text-center about-headings">What I am looking for:</p>
+						<p class="about-slider text-left about-spacing">&#9673; Permanent positions as a front-end, back-end or full-stack developer</p>
+						<p class="about-slider text-left about-spacing">&#9673; Cybersecurity positions</p>
+						<p class="about-slider text-left about-spacing">&#9673; Freelance work</p>
+					</li>
+
+				</ul>
+
+			</div>
+		</section>
+
+		<!-- <h2>Skills:</h2>
+		<ul id="skills">
+		<li>HTML5</p></li>
+		<li>CSS3 - Foundations</p></li>
+		<li>Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p></li>
+		<li>Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p></li>
+		<li>Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, </p></li>
+	</ul> -->
+
+
+
+
+
+	<section  id="portfolio" class="portfolio row">
+		<h1 class="text-center section-heading">Portfolio</h1>
+
+		<div class="portfolio-slider-container">
+
+			<ul class="slideshow small-block-grid-3">
+				<li class="securitypulse project th">
+
+					<a  href="http://securitypulse.herokuapp.com"> <img src="images/securitypulse_1.png" alt="portfolio image"/> </a>
+					<p class="text-center panel">A application designed encouraging and supporting a
+						secure web.</p>
+					</li>
+
+					<li class="policonnect project th">
+						<a class="" href="http://www.policonnect.org"> <img src="images/policonnect.png" alt="portfolio image"/></a>
+						<p class="text-center panel">A group project to connect policymakers to experts in order to inform policymakers when making decisions.</p>
+					</li>
+
+					<!-- <li class="postpoll project th">
+					<a class="" href="http://localhost:3000"> <img src="images/postpoll.png"/></a>
+				</li> -->
+
+				<li class="writershub project th">
+					<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/writershub_1.png" alt="portfolio image"/></a>
+					<p class="text-center panel">A group project to assist writers in promoting their work and allow readers an opprotunity to read short stories.</p>
 				</li>
 
-				<li class="text-left about-list">
-					<p class="about-slider text-center about-headings">What I’m excited about:</p>
-					<p class="about-slider text-left about-spacing">&#9673; Using javascript to develop apps that are responsive on multiple device platforms</p>
-					<p class="about-slider text-left about-spacing">&#9673; Next generation mobile devices</p>
-					<p class="about-slider text-left about-spacing">&#9673; Penetration testing</p>
-					<p class="about-slider text-left about-spacing">&#9673; Incorporating advanced security features into apps and developing security related apps and other security systems</p>
+				<li class="daytrackr project th">
+					<a class="" href="http://daytrackr.meteor.com"> <img src="images/daytrackr.png" alt="portfolio image"/></a>
+					<p class="text-center panel">Prototype project for Meteor.js, an organizational app.</p>
 				</li>
 
-				<li class="about-list">
-					<p class="about-slider text-center passions about-headings">Passions:</p>
-					<p class="about-slider text-left about-spacing">&#9673; Learning new things</p>
-					<p class="about-slider text-left about-spacing">&#9673; Problem solving</p>
-					<p class="about-slider text-left about-spacing">&#9673; Tai Chi Chuan</p>
-					<p class="about-slider text-left about-spacing">&#9673; Working out</p>
+				<li class="distil project th">
+					<a class="" href="https://github.com/dmc2015/distill-bots-filter4"> <img src="images/distil-filter.png" alt="portfolio image"/></a>
+					<p class="text-center panel">I created a filter for a prospective employer to sort through the bots on their web page.</p>
 				</li>
 
-				<li class="about-list">
-					<p class="about-slider text-center about-headings">Talents:</p>
-					<p class="about-slider text-left about-spacing">&#9673; Resourcefulness</p>
-					<p class="about-slider text-left about-spacing">&#9673; Persistence</p>
-					<p class="about-slider text-left about-spacing">&#9673; Adaptability</p>
-				</li>
 
-				<li class="about-list">
-					<p class="about-slider text-center about-headings">What I am looking for:</p>
-					<p class="about-slider text-left about-spacing">&#9673; Permanent positions as a front-end, back-end or full-stack developer</p>
-					<p class="about-slider text-left about-spacing">&#9673; Cybersecurity positions</p>
-					<p class="about-slider text-left about-spacing">&#9673; Freelance work</p>
-				</li>
-
-			</ul>
-
-		</div>
-	</section>
-
-	<!-- <h2>Skills:</h2>
-	<ul id="skills">
-	<li>HTML5</p></li>
-	<li>CSS3 - Foundations</p></li>
-	<li>Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p></li>
-	<li>Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p></li>
-	<li>Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, </p></li>
-</ul> -->
-
-
-
-
-
-<section  id="portfolio" class="portfolio row">
-	<h1 class="text-center section-heading">Portfolio</h1>
-
-	<div class="portfolio-slider-container">
-
-		<ul class="slideshow small-block-grid-3">
-			<li class="securitypulse project th">
-
-				<a  href="http://securitypulse.herokuapp.com"> <img src="images/securitypulse_1.png" alt="portfolio image"/> </a>
-				<p class="text-center panel">A application designed encouraging and supporting a
-					secure web.</p>
-				</li>
-
-				<li class="policonnect project th">
-					<a class="" href="http://www.policonnect.org"> <img src="images/policonnect.png" alt="portfolio image"/></a>
-					<p class="text-center panel">A group project to connect policymakers to experts in order to inform policymakers when making decisions.</p>
-				</li>
-
-				<!-- <li class="postpoll project th">
-				<a class="" href="http://localhost:3000"> <img src="images/postpoll.png"/></a>
+				<!-- <li class="todo project th">
+				<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/"/></a>
+				<p class="text-center panel">A app mobile and web app created with Meteor.js that allows one to track their daily tasks.</p>
 			</li> -->
 
-			<li class="writershub project th">
-				<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/writershub_1.png" alt="portfolio image"/></a>
-				<p class="text-center panel">A group project to assist writers in promoting their work and allow readers an opprotunity to read short stories.</p>
-			</li>
+		</ul>
 
-			<li class="daytrackr project th">
-				<a class="" href="http://daytrackr.meteor.com"> <img src="images/daytrackr.png" alt="portfolio image"/></a>
-				<p class="text-center panel">Prototype project for Meteor.js, an organizational app.</p>
-			</li>
-
-			<li class="distil project th">
-				<a class="" href="https://github.com/dmc2015/distill-bots-filter4"> <img src="images/distil-filter.png" alt="portfolio image"/></a>
-				<p class="text-center panel">I created a filter for a prospective employer to sort through the bots on their web page.</p>
-			</li>
-
-
-			<!-- <li class="todo project th">
-			<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/"/></a>
-			<p class="text-center panel">A app mobile and web app created with Meteor.js that allows one to track their daily tasks.</p>
-		</li> -->
-
-	</ul>
-
-</div>
+	</div>
 </section>
 <div id="contact" class="contact-form default-contact">
 
@@ -262,94 +262,251 @@
 <div id="blog-page" class="blog-hide">
 
 	<div class="blog post1">
-		<p>test</p>
-	</div>
+		<p><h2>HTTP (HyperText Transfer Protocol)</h2>
 
-	<div class="blog post2">
-		<p>test</p>
-	</div>
+			<section class=“panel">
+				<h3>HTTP Functionality & Purpose</h3>
 
-</div>
+				HTTP is a protocol that allows clients to access resources on the web(web sites, files, images, .etc) and it exists at the upper layer(Application) of the tcp/ip model. Web browsers utilize HTTP to communicate with resources on the web in order to present them to the user. Without HTTP the Internet would not be as we know it today.
 
 
-<footer>
-</footer>
+				When a client/web browser makes an attempt to access a website it sends the request to web server that hosts the site.
 
-<!--FOR scss -->
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/foundation/js/foundation.min.js"></script>
-<script src="js/app.js"></script>
+				That request may look something like this.
 
+				<section class="panel">
+					<h4>Client Request:</h4>
+					<p>GET /app/index.html HTTP/1.1</p>
+					<p>Host: www.test.com:80</p>
+					<p>From: User@gmail.com</p>
+					<p>User-Agent: Mozilla/5.0</p>
 
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="foundation-5.5.2/js/foundation.min.js"></script> -->
+				</section>
 
-<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script> -->
+				<ul>
+					<li>
+						The first line is the Initial Request/Response (the client makes the request and the server makes the response)
+					</li>
+					<li>
+						The second & third line are header lines
+					</li>
+					<li>
+						Following the headers, of which there can be several there may be a message body, this can include a the contents of a file or query data
+					</li>
+				</ul>
 
-<script>
-$(document).foundation();
-</script>
+				There are three parts of the Initial Request line
+				<section class="panel">
+					GET /app/index.html HTTP/1.1
+				</section>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
-<!-- Initializing slick -->
-<script type="text/javascript">
-$(document).ready(function(){
-	$('.slideshow').slick({
-		dots: true,
-		cssEase: 'linear',
-		infinite: true,
-		speed: 300,
-		slidesToShow: 1,
-		centerMode: true,
-		centerPadding: '40px',
-		arrows: true,
-		variableWidth: false,
-		adaptiveHeight: true
-	});
-	$('.slideshow-about').slick({
-		dots: false,
-		cssEase: 'linear',
-		infinite: true,
-		speed: 300,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		centerMode: true,
-		centerPadding: '10px',
-		arrows: true,
-		// respondTo:'min',
-		variableWidth: false,
-		adaptiveHeight: true
-	});
-});
+				<ul>
+					<li>The HTTP Verb or Method</li>
+					<li>The path to the file that is being requested or the Uniform Resource Identifier (URI) request</li>
+					<li>The last part is the version of HTTP the client is attempting to utilize</li>
+				</ul>
 
 
+				<p>Below is an example of the servers response to the client.</p>
+				<section class="panel">
+					<h4>Server Response:</h4>
+					<p>HTTP/1.1 200 OK</p>
+					<p>Date: Fri, 28 August 2015 14:05:02 GMT</p>
+					<p>Content-Type: text/html</p>
+					<p>Content-Length: 1000</p>
 
-// infinite: true,
-//   slidesToShow: 3,
-//   slidesToScroll: 3
+					<p>&#60;html&#62;</p>
+					<p>&#60;p&#62;Page Content&#60;&#47;p&#62;</p>
+					<p>&#60;&#47;html&#62;</p>
 
+				</section>
 
+				<section>
+					<section>
+						<ul>
+							<li>The first line is the Initial Response</li>
+							<li>The next three lines are headers that provide information about the data that is being supplied the client. When content is returned by the server in the message body the headers of Content-Type and Content Length are usually included</li>
+							<li>After the headers the content of the request is provided at the end</li>
+						</ul>
+					</section>
 
+					The Initial Response line, the first line, is also in three sections
+					<section class="panel">
+						<p>HTTP/1.1 200 OK</p>
+					</section>
+					<ul>
+						<li>The HTTP version</li>
+						<li>The status code</li>
+						<li>The human readable status</li>
+					</ul>
 
-</script>
+				</section>
 
+				<div>
 
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-64206324-1', 'auto');
-ga('send', 'pageview');
-
-</script>
-
-
-<!-- <script type="text/javascript" src="jquery_radiobutton.js"</script> -->
+					<p>Some commonly used headers are:</p>
 
 
 
-</body>
-</html>
+					<section class="common-request-headers panel">
+						Request:
+						<ul>
+							<li>From - the email address of the user making the request</li>
+							<li>User-Agent - the name and version of the browser or tool utilizing HTTP</li>
+							<li>Accept - content-types(a response header) that are acceptable for the client</li>
+							<li>Host - the domain name being requested in the HTTP request and it may include the port number on the end</li>
+							<li>If-Modified-Since - if content is not changed from given value (Date & time) the server will return a 304 error</li>
+							<li>Cache-Control - tells caching on client how long information can be cached</li>
+						</ul>
+					</section>
+
+					<section class="common-response-headers panel">
+						Response:
+						<ul>
+							<li>Server - the name of the server</li>
+							<li>Last-Modified - the date the resource that was requested was last modified</li>
+							<li>Connection - controls if a connection should continue or end</li>
+							<li>Expires - gives a limit or defines when communication should be terminated</li>
+							<li>Content-Type - states the type of data that is returned from</li>
+							<li>Content-Length - states the amount of data, in 8-bit bytes, that should be contained in the message body of the http response</li>
+						</ul>
+					</section>
+
+
+					<div class="panel">
+						Side Notes & HTTP Facts:
+						<ul>
+							<li>	The general description of a response message is denoted based on the first number of the status code:
+								1xx - informational message
+								2xx - success message
+								3xx - redirects client
+								4xx - client error
+								5xx - server error
+							</li>
+							<li>
+								After each line is ended with ASCII CRLF, these characters signify that a new line is should be created for the data that follows it
+							</li>
+
+							<li>
+								Header lines are easy to identify because they follow a familiar format if you are used to javascript objects or ruby hashes:
+								Accept: text/plan
+								Accept-Charset: utf-8
+							</li>
+							<li>
+								HTTP/0.9 does not have any headers
+								<li>
+									The header name is not case sensitive but the value of the header may be.
+								</li>
+								<li>
+									It is possible for a header line to span multiple lines or have multiple values for one header, the value will be delimited with a comma
+								</li>
+								<li>
+									HTTP is a stateless protocol, it does not maintain a connection with a client after the transfer of data is complete
+								</li>
+								<li>The only required header is Host for the request and this is true only for HTTP 1.1</small></li>
+
+								<li>There are several HTTP headers associated to security are located here also:</li>
+								<a  href="https://www.owasp.org/index.php/List_of_useful_HTTP_headers">Owasp Security Headers List</a>
+
+								<li>The server Response commonly contains a message body, as this is how the client receives the data that was requested. See additional sources and side notes to learn more about HTTP headers.</li>
+							</div>
+
+							<div class="sources">
+								<p>Sources:</p>
+								<p>http://www.jmarshall.com/easy/http/#whatis</p>
+								<p>https://en.wikipedia.org/wiki/Uniform_resource_identifier</p>
+								<p>https://en.wikipedia.org/wiki/HTTP_message_body</p>
+								<p>https://en.wikipedia.org/wiki/List_of_HTTP_header_fields</p>
+								<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers</p>
+							</div>
+						</p>
+					</div>
+
+					<div class="blog post2">
+						<p>test</p>
+					</div>
+
+				</div>
+
+
+				<footer>
+				</footer>
+
+				<!--FOR scss -->
+				<script src="bower_components/jquery/dist/jquery.min.js"></script>
+				<script src="bower_components/foundation/js/foundation.min.js"></script>
+				<script src="js/app.js"></script>
+
+
+				<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+					<script src="foundation-5.5.2/js/foundation.min.js"></script> -->
+
+					<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script> -->
+
+					<script>
+						$(document).foundation();
+					</script>
+
+					<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
+					<!-- Initializing slick -->
+					<script type="text/javascript">
+						$(document).ready(function(){
+							$('.slideshow').slick({
+								dots: true,
+								cssEase: 'linear',
+								infinite: true,
+								speed: 300,
+								slidesToShow: 1,
+								centerMode: true,
+								centerPadding: '40px',
+								arrows: true,
+								variableWidth: false,
+								adaptiveHeight: true
+							});
+							$('.slideshow-about').slick({
+								dots: false,
+								cssEase: 'linear',
+								infinite: true,
+								speed: 300,
+								slidesToShow: 1,
+								slidesToScroll: 1,
+								centerMode: true,
+								centerPadding: '10px',
+								arrows: true,
+								// respondTo:'min',
+								variableWidth: false,
+								adaptiveHeight: true
+							});
+						});
+
+
+
+						// infinite: true,
+						//   slidesToShow: 3,
+						//   slidesToScroll: 3
+
+
+
+
+					</script>
+
+
+
+					<script>
+						(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+							(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+							m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+						})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+						ga('create', 'UA-64206324-1', 'auto');
+						ga('send', 'pageview');
+
+					</script>
+
+
+					<!-- <script type="text/javascript" src="jquery_radiobutton.js"</script> -->
+
+
+
+					</body>
+					</html>

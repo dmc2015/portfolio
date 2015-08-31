@@ -1,0 +1,107 @@
+<h2>HTTP (HyperText Transfer Protocol)</h2>
+
+<section class=“panel">
+HTTP is a protocol that allows clients to access resources on the web(web sites, files, images, .etc) and it exists at the upper layer(Application) of the tcp/ip model. Web browsers utilize HTTP to communicate with resources on the web in order to present them to the user. Without HTTP the Internet would not be as we know it today.
+
+
+HTTP Structure
+
+When a client/web browser makes an attempt to access a website it sends the request to web server that hosts the site.
+
+That request may look something like this.
+
+Client Request:
+GET /app/index.html HTTP/1.1
+Host: www.test.com:80
+ From: User@gmail.com
+ User-Agent: Mozilla/5.0
+
+Hello World!
+
+- The first line is the Initial Request/Response (the client makes the request and the server makes the response)
+- The second & third line are header lines
+- Following the headers, of which there can be several there may be a message body, this can include a the contents of a file or query data.
+
+There are three parts of the Initial Request line
+
+GET /app/index.html HTTP/1.1
+
+-The HTTP Verb or Method
+-The path to the file that is being requested or the Uniform Resource Identifier (URI) request
+-The last part is the version of HTTP the client is attempting to utilize
+
+Server Response:
+HTTP/1.1 200 OK
+Date: Fri, 28 August 2015 14:05:02 GMT
+Content-Type: text/html
+Content-Length: 1000
+
+<html>
+…..
+</html>
+
+The Initial Response is also in three sections
+-The HTTP version
+-The status code
+-The human readable status
+
+The next three lines are headers that provide information about the data that is being supplied the client. When content is returned by the server in the message body the headers of Content-Type and Content Length are usually included
+
+Some commonly used headers are:
+Request:
+From - the email address of the user making the request
+User-Agent - the name and version of the browser or tool utilizing HTTP
+Accept - content-types(a response header) that are acceptable for the client
+Host - the domain name being requested in the HTTP request and it may include the port number on the end
+If-Modified-Since - if content is not changed from given value (Date & time) the server will return a 304 error
+Cache-Control - tells caching on client how long information can be cached
+
+Response:
+Server - the name of the server
+Last-Modified - the date the resource that was requested was last modified
+Connection - controls if a connection should continue or end
+Expires - gives a limit or defines when communication should be terminated
+Content-Type - states the type of data that is returned from
+Content-Length - states the amount of data, in 8-bit bytes, that should be contained in the message body of the http response
+
+The only required header is Host for the request and this is true only for HTTP 1.1
+
+Several HTTP headers associated to security are located here also:
+https://www.owasp.org/index.php/List_of_useful_HTTP_headers
+
+The server Response commonly contains a message body, as this is how the client receives the data that was requested. See additional sources and side notes to learn more about HTTP headers.
+</section>
+
+
+<div class="panel">
+Side Notes:
+The general description of a response message is denoted based on the first number of the status code:
+1xx - informational message
+2xx - success message
+3xx - redirects client
+4xx - client error
+5xx - server error
+
+After each line is ended with ASCII CRLF, these characters signify that a new line is should be created for the data that follows it
+
+Header lines are easy to identify because they follow a familiar format if you are used to javascript objects or ruby hashes:
+Accept: text/plan
+Accept-Charset: utf-8
+
+HTTP/0.9 does not have any headers
+
+The header name is not case sensitive but the value of the header may be.
+
+It is possible for a header line to span multiple lines or have multiple values for one header, the value will be delimited with a comma
+
+HTTP is a stateless protocol, it does not maintain a connection with a client after the transfer of data is complete
+</div>
+
+<div class="sources">
+<p>Sources:</p>
+<p>http://www.jmarshall.com/easy/http/#whatis</p>
+<p>https://en.wikipedia.org/wiki/Uniform_resource_identifier</p>
+<p>https://en.wikipedia.org/wiki/HTTP_message_body</p>
+<p>https://en.wikipedia.org/wiki/List_of_HTTP_header_fields</p>
+<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers</p>
+</div>
