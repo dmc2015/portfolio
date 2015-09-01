@@ -10717,26 +10717,6 @@ nav ul li a img{
   margin-left: 20px !important;
 }
 
-/* line 54, ../css/_layout.scss */
-#blog-page {
-  font-size: 20px;
-  color: #ccc;
-}
-
-/* line 60, ../css/_layout.scss */
-.blog-hide {
-  display: none !important;
-  font-size: 20px;
-  color: #ccc;
-}
-
-/* line 66, ../css/_layout.scss */
-.blog-show {
-  display: show !important;
-  font-size: 20px;
-  color: #ccc;
-}
-
 /*.social a img{
   width: 3%;
   height: 3%;
@@ -10786,3 +10766,103 @@ p{
   max-width: 25px;
   max-length: 25px;
   /*float: left;*/
+/* line 3, ../css/_blog.scss */
+.blog h2 {
+  font-family: Merriweather, Lato, Arial !important;
+}
+
+/* line 8, ../css/_blog.scss */
+.blog p {
+  font-family: Merriweather, Lato, Arial !important;
+}
+
+/* line 12, ../css/_blog.scss */
+#blog-page div h1 {
+  font-size: 44px;
+  color: #00B9AB !important;
+  font-weight: 200 !important;
+  margin-top: 40px;
+}
+
+/* line 19, ../css/_blog.scss */
+.blog * p, .blog * {
+  color: black;
+}
+
+/* line 23, ../css/_blog.scss */
+.blog * div, .blog div, .blog * li {
+  margin-bottom: 1%;
+  font-family: Merriweather;
+  font-size: 15px;
+}
+
+/* line 30, ../css/_blog.scss */
+#blog-page {
+  color: #ccc;
+}
+
+/* line 36, ../css/_blog.scss */
+.blog-hide {
+  display: none !important;
+  color: #ccc;
+}
+
+/* line 42, ../css/_blog.scss */
+.blog-show {
+  display: show !important;
+  color: #ccc;
+}
+
+/* line 49, ../css/_blog.scss */
+.blog * p {
+  line-height: 1px;
+}
+
+/* line 53, ../css/_blog.scss */
+.blog * a {
+  color: #00B9AB !important;
+}
+
+/* line 63, ../css/_blog.scss */
+#blog-page > div > p {
+  font-family: Merriweather;
+  font-size: 15px;
+  letter-spacing: 0px !important;
+  word-spaccing: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 71, ../css/_blog.scss */
+.blog h3 {
+  color: #00B9AB !important;
+  font-size: 30px;
+}
+
+/* line 76, ../css/_blog.scss */
+.no-bullet {
+  list-style-type: none;
+}
+
+/* line 80, ../css/_blog.scss */
+.ntp-config p {
+  margin-top: 15px;
+  line-height: 0px !important;
+  font-size: 15px;
+}
+
+/* line 86, ../css/_blog.scss */
+.panel.command, .panel.command p {
+  background-color: black;
+  color: #ccc !important;
+}
+
+/* line 92, ../css/_blog.scss */
+.panel.text-doc {
+  backgrond-color: #ccc;
+  color: black;
+}
+
+/* line 99, ../css/_blog.scss */
+.post1 {
+  border-bottom: solid black;
+}
