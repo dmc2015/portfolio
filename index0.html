@@ -261,191 +261,191 @@
 </main>
 <div id="blog-page" class="row blog-hide">
 
-	<div class="blog post1">
+  <div class="blog post1">
 
-		<div class="text-center">
-			<h2>HTTP (HyperText Transfer Protocol)</h2>
-			<h3>Written By: Don McLamb</h3>
-			<h3>Date: August 28th, 2015</h3>
-		</div>
+    <div class="text-center">
+			<h1>Blog</h1>
+      <h2>HTTP (HyperText Transfer Protocol)</h2>
+      <h3>Written By: Don McLamb</h3>
+      <h3>Date: August 28th, 2015</h3>
+    </div>
 
-		<h3>HTTP Functionality & Purpose</h3>
-		<section>
-			HTTP is a protocol that allows clients to access resources on the web(web sites, files, images, .etc) and it exists at the upper layer (Application Layer) of the tcp/ip model. Web browsers utilize HTTP to communicate with resources on the web in order to present them to the user. Without HTTP the Internet would not be as we know it today.
-		</section>
+    <h3>HTTP Functionality & Purpose</h3>
+    <div>
+      HTTP is a protocol that allows clients to access resources on the web(web sites, files, images, .etc) and it exists at the upper layer (Application Layer) of the tcp/ip model. Web browsers utilize HTTP to communicate with resources on the web in order to present them to the user. Without HTTP the Internet would not be as we know it today.
+    </div>
 
-		<section>
-			When a client/web browser makes an attempt to access a website it sends the request to web server that hosts the site.
-
-
-			That request may look something like this:
-		</section>
-
-		<section class="panel">
-			<h4>Client Request:</h4>
-			<p>GET /app/index.html HTTP/1.1</p>
-			<p>Host: www.test.com:80</p>
-			<p>From: User@gmail.com</p>
-			<p>User-Agent: Mozilla/5.0</p>
-
-		</section>
-
-		<ul>
-			<li>
-				The first line is the Initial Request/Response (the client makes the request and the server makes the response)
-			</li>
-			<li>
-				The second & third line are header lines that provide information about the client
-			</li>
-			<li>
-				Following the headers, of which there can be several there may be a message body, this can include a the contents of a file or query data
-			</li>
-		</ul>
-
-		<h3>The Initial Request line</h3>
-		<section class="panel">
-			GET /app/index.html HTTP/1.1
-		</section>
-
-		<ul>
-			<li>The HTTP Verb or Method</li>
-			<li>The path to the file that is being requested or the Uniform Resource Identifier (URI) request</li>
-			<li>The last part is the version of HTTP the client is attempting to utilize</li>
-		</ul>
+    <div>
+      When a client/web browser makes an attempt to access a website it sends the request to web server that hosts the site.
 
 
-		<p>After the server receives the request from the client it responsds, below is an example of the servers response to the client.</p>
-		<section class="panel">
-			<h4>Server Response:</h4>
-			<p>HTTP/1.1 200 OK</p>
-			<p>Date: Fri, 28 August 2015 14:05:02 GMT</p>
-			<p>Content-Type: text/html</p>
-			<p>Content-Length: 1000</p>
+      That request may look something like this:
+    </div>
 
-			<p>&#60;html&#62;</p>
-			<p>&#60;p&#62;Page Content&#60;&#47;p&#62;</p>
-			<p>&#60;&#47;html&#62;</p>
+    <div class="panel">
+      <h4>Client Request:</h4>
+      <p>GET /app/index.html HTTP/1.1</p>
+      <p>Host: www.test.com:80</p>
+      <p>From: User@gmail.com</p>
+      <p>User-Agent: Mozilla/5.0</p>
 
-		</section>
+    </div>
 
-		<section>
-			<section>
-				<ul>
-					<li>The first line is the Initial Response</li>
-					<li>The next three lines are headers that provide information about the data that is being supplied the client. When content is returned by the server in the message body the headers of Content-Type and Content Length are usually included</li>
-					<li>After the headers the content of the request is provided at the end</li>
-				</ul>
-			</section>
+    <ul>
+      <li>
+        The first line is the Initial Request/Response (the client makes the request and the server makes the response)
+      </li>
+      <li>
+        The second & third line are header lines that provide information about the client
+      </li>
+      <li>
+        Following the headers, of which there can be several there may be a message body, this can include a the contents of a file or query data
+      </li>
+    </ul>
 
-			<h3>The Initial Response line</h3>
-			<section class="panel">
-				<p>HTTP/1.1 200 OK</p>
-			</section>
-			<ul>
-				<li>The HTTP version</li>
-				<li>The status code</li>
-				<li>The human readable status</li>
-			</ul>
+    <h3>The Initial Request line</h3>
+    <div class="panel">
+      GET /app/index.html HTTP/1.1
+    </div>
 
-		</section>
-
-
-		<div>
-			<h3>Some commonly used headers are:</h3>
-			<section class="common-request-headers panel">
-				<h4>For Client Requests:</h4>
-				<ul>
-					<li>From - the email address of the user making the request</li>
-					<li>User-Agent - the name and version of the browser or tool utilizing HTTP</li>
-					<li>Accept - content-types(a response header) that are acceptable for the client</li>
-					<li>Host - the domain name being requested in the HTTP request and it may include the port number on the end</li>
-					<li>If-Modified-Since - if content is not changed from given value (Date & time) the server will return a 304 error</li>
-					<li>Cache-Control - tells caching on client how long information can be cached</li>
-				</ul>
-			</section>
-
-			<section class="common-response-headers panel">
-				<h4>For Server Responses:</h4>
-				<ul>
-					<li>Server - the name of the server</li>
-					<li>Last-Modified - the date the resource that was requested was last modified</li>
-					<li>Connection - controls if a connection should continue or end</li>
-					<li>Expires - gives a limit or defines when communication should be terminated</li>
-					<li>Content-Type - states the type of data that is returned from</li>
-					<li>Content-Length - states the amount of data, in 8-bit bytes, that should be contained in the message body of the http response</li>
-				</ul>
-			</section>
-			<h3>Conclusion</h3>
-			<section>
-				Understanding HTTP is important to troubleshooting a variety of network related issues and acquiring a better understanding regarding how the Internet functions.
-			</section>
-			<section>
-				Some other topics that will research further will be HTTP methods, common web vulnerabilities, and other protocols that important to having a strong understanding of network functionality.
-			</section>
-
-			<section>
-				There is a lot more to HTTP then what I covered here.Below are some interesting facts about HTTP I found and additional resources for those interested in learning more.
-			</section>
+    <ul>
+      <li>The HTTP Verb or Method</li>
+      <li>The path to the file that is being requested or the Uniform Resource Identifier (URI) request</li>
+      <li>The last part is the version of HTTP the client is attempting to utilize</li>
+    </ul>
 
 
-			<div class="panel">
-				<h3>Side Notes & HTTP Facts:</h3>
-				<ul>
-					<li>	The general description of a response message is denoted based on the first number of the status code:
-						1xx - informational message
-						2xx - success message
-						3xx - redirects client
-						4xx - client error
-						5xx - server error
-					</li>
-					<li>
-						After each line is ended with ASCII CRLF, these characters signify that a new line is should be created for the data that follows it
-					</li>
+    <p>After the server receives the request from the client it responsds, below is an example of the servers response to the client.</p>
+    <div class="panel">
+      <h4>Server Response:</h4>
+      <p>HTTP/1.1 200 OK</p>
+      <p>Date: Fri, 28 August 2015 14:05:02 GMT</p>
+      <p>Content-Type: text/html</p>
+      <p>Content-Length: 1000</p>
 
-					<li>
-						Header lines are easy to identify because they follow a familiar format if you are used to javascript objects or ruby hashes:
-						Accept: text/plan
-						Accept-Charset: utf-8
-					</li>
-					<li>
-						HTTP/0.9 does not have any headers
-						<li>
-							The header name is not case sensitive but the value of the header may be.
-						</li>
-						<li>
-							It is possible for a header line to span multiple lines or have multiple values for one header, the value will be delimited with a comma
-						</li>
-						<li>
-							HTTP is a stateless protocol, it does not maintain a connection with a client after the transfer of data is complete
-						</li>
-						<li>The only required header is Host for the request and this is true only for HTTP 1.1</small></li>
+      <p>&#60;html&#62;</p>
+      <p>&#60;p&#62;Page Content&#60;&#47;p&#62;</p>
+      <p>&#60;&#47;html&#62;</p>
 
-						<li>There are several HTTP headers associated to security are located here also:</li>
-						<a  href="https://www.owasp.org/index.php/List_of_useful_HTTP_headers">Owasp Security Headers List</a>
+    </div>
 
-						<li>The server Response commonly contains a message body, as this is how the client receives the data that was requested. See additional sources and side notes to learn more about HTTP headers.</li>
-					</div>
+    <div>
+      <div>
+        <ul>
+          <li>The first line is the Initial Response</li>
+          <li>The next three lines are headers that provide information about the data that is being supplied the client. When content is returned by the server in the message body the headers of Content-Type and Content Length are usually included</li>
+          <li>After the headers the content of the request is provided at the end</li>
+        </ul>
+      </div>
+
+      <h3>The Initial Response line</h3>
+      <div class="panel">
+        <p>HTTP/1.1 200 OK</p>
+      </div>
+      <ul>
+        <li>The HTTP version</li>
+        <li>The status code</li>
+        <li>The human readable status</li>
+      </ul>
+
+    </div>
 
 
-					<div class="sources">
-						<h3>Sources:</h3>
-						<ul>
-							<li><a href="http://www.jmarshall.com/easy/http/#whatis">JMarshal What is HTTP</a></li>
-							<li><a href="https://en.wikipedia.org/wiki/Uniform_resource_identifier">Wiki URI</a></li>
-							<li><a href="https://en.wikipedia.org/wiki/HTTP_message_body">Wiki HTTP - Message Body</a></li>
-							<li><a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields">Wiki HTTP - Header Fields</a></li>
-							<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">Mozilla HTTP Info</a></li>
-							<ul>
-							</div>
-						</p>
-					</div>
+    <div>
+      <h3>Some commonly used headers are:</h3>
+      <div class="common-request-headers panel">
+        <h4>For Client Requests:</h4>
+        <ul>
+          <li>From - the email address of the user making the request</li>
+          <li>User-Agent - the name and version of the browser or tool utilizing HTTP</li>
+          <li>Accept - content-types(a response header) that are acceptable for the client</li>
+          <li>Host - the domain name being requested in the HTTP request and it may include the port number on the end</li>
+          <li>If-Modified-Since - if content is not changed from given value (Date & time) the server will return a 304 error</li>
+          <li>Cache-Control - tells caching on client how long information can be cached</li>
+        </ul>
+      </div>
 
-					<div class="blog post2">
-						<p>test</p>
-					</div>
+      <div class="common-response-headers panel">
+        <h4>For Server Responses:</h4>
+        <ul>
+          <li>Server - the name of the server</li>
+          <li>Last-Modified - the date the resource that was requested was last modified</li>
+          <li>Connection - controls if a connection should continue or end</li>
+          <li>Expires - gives a limit or defines when communication should be terminated</li>
+          <li>Content-Type - states the type of data that is returned from</li>
+          <li>Content-Length - states the amount of data, in 8-bit bytes, that should be contained in the message body of the http response</li>
+        </ul>
+      </div>
+      <h3>Conclusion</h3>
+      <div>
+        Understanding HTTP is important to troubleshooting a variety of network related issues and acquiring a better understanding regarding how the Internet functions.
+      </div>
+      <div>
+        Some other topics that will research further will be HTTP methods, common web vulnerabilities, and other protocols that important to having a strong understanding of network functionality.
+      </div>
 
-				</div>
+      <div>
+        There is a lot more to HTTP then what I covered here.Below are some interesting facts about HTTP I found and additional resources for those interested in learning more.
+      </div>
 
+
+      <div class="panel">
+        <h3>Side Notes & HTTP Facts:</h3>
+        <ul>
+          <li>	The general description of a response message is denoted based on the first number of the status code:
+            1xx - informational message
+            2xx - success message
+            3xx - redirects client
+            4xx - client error
+            5xx - server error
+          </li>
+          <li>
+            After each line is ended with ASCII CRLF, these characters signify that a new line is should be created for the data that follows it
+          </li>
+
+          <li>
+            Header lines are easy to identify because they follow a familiar format if you are used to javascript objects or ruby hashes:
+            Accept: text/plan
+            Accept-Charset: utf-8
+          </li>
+          <li>
+            HTTP/0.9 does not have any headers
+            <li>
+              The header name is not case sensitive but the value of the header may be.
+            </li>
+            <li>
+              It is possible for a header line to span multiple lines or have multiple values for one header, the value will be delimited with a comma
+            </li>
+            <li>
+              HTTP is a stateless protocol, it does not maintain a connection with a client after the transfer of data is complete
+            </li>
+            <li>The only required header is Host for the request and this is true only for HTTP 1.1</small></li>
+
+            <li>There are several HTTP headers associated to security are located here also:</li>
+            <a  href="https://www.owasp.org/index.php/List_of_useful_HTTP_headers">Owasp Security Headers List</a>
+
+            <li>The server Response commonly contains a message body, as this is how the client receives the data that was requested. See additional sources and side notes to learn more about HTTP headers.</li>
+          </div>
+
+
+          <div class="sources">
+            <h3>Sources:</h3>
+            <ul>
+              <li><a href="http://www.jmarshall.com/easy/http/#whatis">JMarshal What is HTTP</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Uniform_resource_identifier">Wiki URI</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/HTTP_message_body">Wiki HTTP - Message Body</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields">Wiki HTTP - Header Fields</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">Mozilla HTTP Info</a></li>
+              <ul>
+              </div>
+            </p>
+          </div>
+
+          <div class="blog post2">
+            <p>test</p>
+          </div>
+
+        </div>
 
 				<footer>
 				</footer>

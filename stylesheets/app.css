@@ -10776,46 +10776,53 @@ p{
   font-family: Merriweather, Lato, Arial !important;
 }
 
-/* line 11, ../css/_blog.scss */
+/* line 10, ../css/_blog.scss */
+#blog-page div h1 {
+  font-size: 44px;
+  color: #00B9AB !important;
+  font-weight: 200 !important;
+}
+
+/* line 16, ../css/_blog.scss */
 .blog * p, .blog * {
   color: black !important;
 }
 
-/* line 15, ../css/_blog.scss */
-.blog * section, .blog section, .blog * li {
+/* line 20, ../css/_blog.scss */
+.blog * div, .blog div, .blog * li {
   margin-bottom: 1%;
   font-family: Merriweather;
   font-size: 15px;
 }
 
-/* line 22, ../css/_blog.scss */
+/* line 27, ../css/_blog.scss */
 #blog-page {
   color: #ccc;
 }
 
-/* line 28, ../css/_blog.scss */
+/* line 33, ../css/_blog.scss */
 .blog-hide {
   display: none !important;
   color: #ccc;
 }
 
-/* line 34, ../css/_blog.scss */
+/* line 39, ../css/_blog.scss */
 .blog-show {
   display: show !important;
   color: #ccc;
 }
 
-/* line 41, ../css/_blog.scss */
+/* line 46, ../css/_blog.scss */
 .blog * p {
   line-height: 1px;
 }
 
-/* line 45, ../css/_blog.scss */
+/* line 50, ../css/_blog.scss */
 .blog * a {
   color: #00B9AB !important;
 }
 
-/* line 55, ../css/_blog.scss */
+/* line 60, ../css/_blog.scss */
 #blog-page > div > p {
   font-family: Merriweather;
   font-size: 15px;
@@ -10824,7 +10831,7 @@ p{
   margin-bottom: 0px;
 }
 
-/* line 63, ../css/_blog.scss */
+/* line 68, ../css/_blog.scss */
 .blog h3 {
   color: #00B9AB !important;
   font-size: 30px;

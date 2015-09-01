@@ -7,12 +7,17 @@
   font-family: Merriweather, Lato, Arial !important;
 }
 
+#blog-page div h1{
+  font-size: 44px;
+  color: #00B9AB !important;
+  font-weight: 200 !important;
+}
 
 .blog * p, .blog *{
   color: black !important;
 }
 
-.blog * section, .blog section, .blog * li {
+.blog * div, .blog div, .blog * li {
   margin-bottom: 1%;
   font-family: Merriweather;
   font-size: 15px;
