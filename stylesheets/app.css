@@ -10786,7 +10786,7 @@ p{
 
 /* line 17, ../css/_blog.scss */
 .blog * p, .blog * {
-  color: black !important;
+  color: black;
 }
 
 /* line 21, ../css/_blog.scss */
@@ -10836,4 +10836,33 @@ p{
 .blog h3 {
   color: #00B9AB !important;
   font-size: 30px;
+}
+
+/* line 74, ../css/_blog.scss */
+.no-bullet {
+  list-style-type: none;
+}
+
+/* line 78, ../css/_blog.scss */
+.ntp-config p {
+  margin-top: 15px;
+  line-height: 0px !important;
+  font-size: 15px;
+}
+
+/* line 84, ../css/_blog.scss */
+.panel.command, .panel.command p {
+  background-color: black;
+  color: #ccc !important;
+}
+
+/* line 90, ../css/_blog.scss */
+.panel.text-doc {
+  backgrond-color: #ccc;
+  color: black;
+}
+
+/* line 95, ../css/_blog.scss */
+.unique-issue {
+  margin: 30px;
 }

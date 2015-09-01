@@ -392,140 +392,253 @@
 				<h3>Side Notes & HTTP Facts:</h3>
 				<ul>
 					<li>	The general description of a response message is denoted based on the first number of the status code:
-						1xx - informational message
-						2xx - success message
-						3xx - redirects client
-						4xx - client error
-						5xx - server error
+						<ul>
+							<li>1xx - informational message</li>
+							<li>2xx - success message</li>
+							<li>3xx - redirects client</li>
+							<li>4xx - client error</li>
+							<li>5xx - server error</li>
+						</ul>
 					</li>
 					<li>
-						After each line is ended with ASCII CRLF, these characters signify that a new line is should be created for the data that follows it
+						After each line is ended with ASCII CRLF, these characters signify that a new line is should be created for the data that follows it.
 					</li>
 
 					<li>
 						Header lines are easy to identify because they follow a familiar format if you are used to javascript objects or ruby hashes:
-						Accept: text/plan
-						Accept-Charset: utf-8
+						<ul>
+							<li>Accept: text/plan</li>
+							<li>Accept-Charset: utf-8</li>
+						</ul>
 					</li>
 					<li>
-						HTTP/0.9 does not have any headers
-						<li>
-							The header name is not case sensitive but the value of the header may be.
-						</li>
-						<li>
-							It is possible for a header line to span multiple lines or have multiple values for one header, the value will be delimited with a comma
-						</li>
-						<li>
-							HTTP is a stateless protocol, it does not maintain a connection with a client after the transfer of data is complete
-						</li>
-						<li>The only required header is Host for the request and this is true only for HTTP 1.1</li>
+						HTTP/0.9 does not have any headers.
+					</li>
+					<li>
+						The header name is not case sensitive but the value of the header may be.
+					</li>
+					<li>
+						It is possible for a header line to span multiple lines or have multiple values for one header, the value will be delimited with a comma.
+					</li>
+					<li>
+						HTTP is a stateless protocol, it does not maintain a connection with a client after the transfer of data is complete.
+					</li>
+					<li>The only required header is Host for the request and this is true only for HTTP 1.1.</li>
+					<li>There are several HTTP headers associated to security are located here also:
+						<a  href="https://www.owasp.org/index.php/List_of_useful_HTTP_headers">Owasp Security Headers List</a>
+					</li>
+					<li>The server Response commonly contains a message body, as this is how the client receives the data that was requested. See additional sources to learn more about HTTP headers.</li>
+				</ul>
+			</div>
 
-						<li>There are several HTTP headers associated to security are located here also:
-							<a  href="https://www.owasp.org/index.php/List_of_useful_HTTP_headers">Owasp Security Headers List</a>
-						</li>
-						<li>The server Response commonly contains a message body, as this is how the client receives the data that was requested. See additional sources and side notes to learn more about HTTP headers.</li>
-					</ul>
-				</div>
 
-
-				<div class="sources">
-					<h3>Sources:</h3>
-					<ul>
-						<li><a href="http://www.jmarshall.com/easy/http/#whatis">JMarshal What is HTTP</a></li>
-						<li><a href="https://en.wikipedia.org/wiki/Uniform_resource_identifier">Wiki URI</a></li>
-						<li><a href="https://en.wikipedia.org/wiki/HTTP_message_body">Wiki HTTP - Message Body</a></li>
-						<li><a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields">Wiki HTTP - Header Fields</a></li>
-						<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">Mozilla HTTP Info</a></li>
-					</ul>
-				</div>
+			<div class="sources">
+				<h3>Sources:</h3>
+				<ul>
+					<li><a href="http://www.jmarshall.com/easy/http/#whatis">JMarshal What is HTTP</a></li>
+					<li><a href="https://en.wikipedia.org/wiki/Uniform_resource_identifier">Wiki URI</a></li>
+					<li><a href="https://en.wikipedia.org/wiki/HTTP_message_body">Wiki HTTP - Message Body</a></li>
+					<li><a href="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields">Wiki HTTP - Header Fields</a></li>
+					<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">Mozilla HTTP Info</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
 
-					<div class="blog post2">
-						<p>test</p>
+
+	<div class="blog post2">
+
+		<div class="text-center">
+			<h2>Network Time Protocol - (NTP)</h2>
+			<h3>Written By: Don McLamb</h3>
+			<h3>Date: August 28th, 2015</h3>
+		</div>
+
+		<div>
+			<h3>Purpose & Significance</h3>
+			NTP is utilized to synchronize the time of all computers on your network and is located on the Application level of the TCP/IP Model. With in a network with multiple clients it can become important to ensure that all computes are working off of the same time standard, there are several reasons for this. Typically a system admin will sync a local server with a remote NTP server(on that is standardized to the ) and clients will sync with the local server and utilize another NTP server as a backup.all serversit is important
+		</div>
+
+		<div>
+			<h3>User Experience Concerns</h3>
+			From the perspective of a computer user, if they were to switch computers it is important to for the time to be synchronized. Lack of synchronization could lead to a number of issues from missed meetings to employees performing tasks that are intended to be completed at a specific time.
+		</div>
+
+		<div>
+			Do any of your servers or clients use Scheduled Tasks or a comparative service? NTP helps eliminate potential confusion with regards to timing in these areas as well.
+		</div>
+
+		<div>
+			Have you ever noticed e-mails with arriving before the sent time even though it was sent with in the same time zone? There could be a number of reasons for this but one of which is someone working on a client that is out of sync with a local NTP server.
+		</div>
+
+		<div>
+			<h3>Security Concerns</h3>
+			When reviewing server logs, router logs, client logs, etc. if these logs are not kept synchronous it could be come challenging to follow the order of events on a network. For example if a network were to be attacked or web site scrapped it will be crucial to review the logs of the server, any access points required to reach the target of the attack and intrusion prevention systems that were passed prior to reaching the target. Proper analysis in the aftermath of an attack is crucial to determine the scope of the attack and preventing future attacks, to ensure analysis is accurate NTP is essential to track the course of events.
+		</div>
+
+		<div class="ntp-config">
+			<h3>NTP Setup and Configuration</h3>
+
+			There are a a variety of ways to install and/or configure NTP especially if you consider operating systems, here is just one way (info with the turquoise background is executed in the command line).
+			<div class="panel">
+				<p>For a Linux System (RedHat):
+
+					<ul>
+						<li class=no-bullet>If not installed already you will need the following</li>
+
+						<li> ntp</li>
+						<li> ntpdate</li>
+						<li> ntp-doc</li>
+					</ul>
+
+
+					<p class="panel command">yum install ntp ntpdate ntp-doc</p>
+
+					<p>Turn on the NTP Service(this is typed into the command line)</p>
+
+					<p class="panel command">chkconfig ntpd on</p>
+
+					<p>Synchronize with Time Pool</p>
+					<p class="panel command">ntpdate pool.ntp.org</p>
+
+					<p>Start the NTP Server</p>
+					<p class="panel command">/etc/init.d/ntpd start</p>
+
+					<p>Customize NTP (This is optional)</p>
+
+					<p> You can locate the configuration file for ntp and modify the configuration in the file:</p>
+
+					<div class="panel command">
+						<p>‘vi /etc/ntp.conf' or '/etc/xntp.conf'</p>
 					</div>
 
+					<p>(The difference will depend on the distribution of your Linux OS which also determins the NTP version, also see side notes below for additional details.)</p>
+
+					<div class="unique-issue">
+						<p>Once editing this file you can setup several features including restricting access to your NTP server and logging parameters.</p>
+
+						<p>The essentials of the configuration file include two lines, one for the primary NTP server to sync with and a the second line is a back up server incase the primary is down.</p>
+						<div class="panel command">
+							server 0.rhel.pool.ntp.org
+							server 1.rhel.pool.ntp.org
+						</div>
+					</div>
 				</div>
 
-				<footer>
-				</footer>
-
-				<!--FOR scss -->
-				<script src="bower_components/jquery/dist/jquery.min.js"></script>
-				<script src="bower_components/foundation/js/foundation.min.js"></script>
-				<script src="js/app.js"></script>
-
-
-				<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-				<script src="foundation-5.5.2/js/foundation.min.js"></script> -->
-
-				<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script> -->
-
-				<script>
-				$(document).foundation();
-				</script>
-
-				<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
-				<!-- Initializing slick -->
-				<script type="text/javascript">
-				$(document).ready(function(){
-					$('.slideshow').slick({
-						dots: true,
-						cssEase: 'linear',
-						infinite: true,
-						speed: 300,
-						slidesToShow: 1,
-						centerMode: true,
-						centerPadding: '40px',
-						arrows: true,
-						variableWidth: false,
-						adaptiveHeight: true
-					});
-					$('.slideshow-about').slick({
-						dots: false,
-						cssEase: 'linear',
-						infinite: true,
-						speed: 300,
-						slidesToShow: 1,
-						slidesToScroll: 1,
-						centerMode: true,
-						centerPadding: '10px',
-						arrows: true,
-						// respondTo:'min',
-						variableWidth: false,
-						adaptiveHeight: true
-					});
-				});
 
 
 
-				// infinite: true,
-				//   slidesToShow: 3,
-				//   slidesToScroll: 3
+				<div>
+					For additional information I recommend checking out the sources below.
+				</div>
+
+				<div class="panel">
+					<h3>Side Notes & NTP Facts:</h3>
+					<ul>
+						<li>xntp refers to versions of NTP prior to v4, the ‘x’ stands for experimental. The ‘x’ was dropped for v4</li>
+						<li>Versions of NTP prior to 4.0.99k23 are susceptible to DOS</li>
+						<li>One of the first utilizations of NTP was by air traffic controllers</li>
+						<li>Fixes for NTP versions &lt; v4 were made in the operating system, v4 is not mainstream yet</li>
+					</ul>
+				</div>
+				<div>
+					<h3>Sources:</h3>
+					<ul>
+						<li><a href="http://www.ntp.org/">NTP Org</a></li>
+						<li><a href="http://www.ntp.org/ntpfaq/NTP-s-def.htm">NTP Org</a></li>
+						<li><a href="http://www.tldp.org/LDP/sag/html/basic-ntp-config.html">TLDP - NTP Configuration</a></li>
+						<li><a href="http://www.cyberciti.biz/faq/howto-install-ntp-to-synchronize-server-clock/">Cyber Citi Installing NTP</a></li>
+						<li><a href="http://www.thegeekstuff.com/2014/06/linux-ntp-server-client/">GeekStuff - Linux NTP Setup</a></li>
+						<li><a href="http://www.pool.ntp.org/en/use.html">Pool NTP - NTP Servers</a></li>
+					</ul>
+				</div>
+			</div>
 
 
 
 
-				</script>
+		</div>
+	</div>
+
+		<footer>
+		</footer>
+
+		<!--FOR scss -->
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/foundation/js/foundation.min.js"></script>
+		<script src="js/app.js"></script>
+
+
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="foundation-5.5.2/js/foundation.min.js"></script> -->
+
+		<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script> -->
+
+		<script>
+		$(document).foundation();
+		</script>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
+		<!-- Initializing slick -->
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('.slideshow').slick({
+				dots: true,
+				cssEase: 'linear',
+				infinite: true,
+				speed: 300,
+				slidesToShow: 1,
+				centerMode: true,
+				centerPadding: '40px',
+				arrows: true,
+				variableWidth: false,
+				adaptiveHeight: true
+			});
+			$('.slideshow-about').slick({
+				dots: false,
+				cssEase: 'linear',
+				infinite: true,
+				speed: 300,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				centerMode: true,
+				centerPadding: '10px',
+				arrows: true,
+				// respondTo:'min',
+				variableWidth: false,
+				adaptiveHeight: true
+			});
+		});
 
 
 
-				<script>
-				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-				ga('create', 'UA-64206324-1', 'auto');
-				ga('send', 'pageview');
-
-				</script>
-
-
-				<!-- <script type="text/javascript" src="jquery_radiobutton.js"</script> -->
+		// infinite: true,
+		//   slidesToShow: 3,
+		//   slidesToScroll: 3
 
 
 
-			</body>
-			</html>
+
+		</script>
+
+
+
+		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-64206324-1', 'auto');
+		ga('send', 'pageview');
+
+		</script>
+
+
+		<!-- <script type="text/javascript" src="jquery_radiobutton.js"</script> -->
+
+
+
+	</body>
+	</html>

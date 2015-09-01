@@ -15,7 +15,7 @@
 }
 
 .blog * p, .blog *{
-  color: black !important;
+  color: black;
 }
 
 .blog * div, .blog div, .blog * li {
@@ -69,4 +69,29 @@
 .blog h3{
   color: #00B9AB !important;
   font-size: 30px;
+}
+
+.no-bullet{
+  list-style-type: none;
+}
+
+.ntp-config p{
+  margin-top: 15px;
+  line-height: 0px !important;
+  font-size: 15px;
+}
+
+.panel.command, .panel.command p{
+  // background-color: #00B9AB;
+  background-color: black;
+  color: #ccc !important;
+}
+
+.panel.text-doc{
+  backgrond-color: #ccc;
+  color: black;
+}
+
+.unique-issue{
+  margin: 30px;
 }
