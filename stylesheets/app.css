@@ -10766,17 +10766,17 @@ p{
   max-width: 25px;
   max-length: 25px;
   /*float: left;*/
-/* line 1, ../css/_blog.scss */
+/* line 3, ../css/_blog.scss */
 .blog h2 {
   font-family: Merriweather, Lato, Arial !important;
 }
 
-/* line 6, ../css/_blog.scss */
+/* line 8, ../css/_blog.scss */
 .blog p {
   font-family: Merriweather, Lato, Arial !important;
 }
 
-/* line 10, ../css/_blog.scss */
+/* line 12, ../css/_blog.scss */
 #blog-page div h1 {
   font-size: 44px;
   color: #00B9AB !important;
@@ -10784,46 +10784,46 @@ p{
   margin-top: 40px;
 }
 
-/* line 17, ../css/_blog.scss */
+/* line 19, ../css/_blog.scss */
 .blog * p, .blog * {
   color: black;
 }
 
-/* line 21, ../css/_blog.scss */
+/* line 23, ../css/_blog.scss */
 .blog * div, .blog div, .blog * li {
   margin-bottom: 1%;
   font-family: Merriweather;
   font-size: 15px;
 }
 
-/* line 28, ../css/_blog.scss */
+/* line 30, ../css/_blog.scss */
 #blog-page {
   color: #ccc;
 }
 
-/* line 34, ../css/_blog.scss */
+/* line 36, ../css/_blog.scss */
 .blog-hide {
   display: none !important;
   color: #ccc;
 }
 
-/* line 40, ../css/_blog.scss */
+/* line 42, ../css/_blog.scss */
 .blog-show {
   display: show !important;
   color: #ccc;
 }
 
-/* line 47, ../css/_blog.scss */
+/* line 49, ../css/_blog.scss */
 .blog * p {
   line-height: 1px;
 }
 
-/* line 51, ../css/_blog.scss */
+/* line 53, ../css/_blog.scss */
 .blog * a {
   color: #00B9AB !important;
 }
 
-/* line 61, ../css/_blog.scss */
+/* line 63, ../css/_blog.scss */
 #blog-page > div > p {
   font-family: Merriweather;
   font-size: 15px;
@@ -10832,37 +10832,37 @@ p{
   margin-bottom: 0px;
 }
 
-/* line 69, ../css/_blog.scss */
+/* line 71, ../css/_blog.scss */
 .blog h3 {
   color: #00B9AB !important;
   font-size: 30px;
 }
 
-/* line 74, ../css/_blog.scss */
+/* line 76, ../css/_blog.scss */
 .no-bullet {
   list-style-type: none;
 }
 
-/* line 78, ../css/_blog.scss */
+/* line 80, ../css/_blog.scss */
 .ntp-config p {
   margin-top: 15px;
   line-height: 0px !important;
   font-size: 15px;
 }
 
-/* line 84, ../css/_blog.scss */
+/* line 86, ../css/_blog.scss */
 .panel.command, .panel.command p {
   background-color: black;
   color: #ccc !important;
 }
 
-/* line 90, ../css/_blog.scss */
+/* line 92, ../css/_blog.scss */
 .panel.text-doc {
   backgrond-color: #ccc;
   color: black;
 }
 
-/* line 95, ../css/_blog.scss */
-.unique-issue {
-  margin: 30px;
+/* line 99, ../css/_blog.scss */
+.post1 {
+  border-bottom: solid black;
 }
