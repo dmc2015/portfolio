@@ -10813,11 +10813,6 @@ p{
   color: #ccc;
 }
 
-/* line 49, ../css/_blog.scss */
-.blog * p {
-  line-height: 1px;
-}
-
 /* line 53, ../css/_blog.scss */
 .blog * a {
   color: #00B9AB !important;
@@ -10846,7 +10841,6 @@ p{
 /* line 80, ../css/_blog.scss */
 .ntp-config p {
   margin-top: 15px;
-  line-height: 0px !important;
   font-size: 15px;
 }
 
@@ -10856,13 +10850,13 @@ p{
   color: #ccc !important;
 }
 
-/* line 92, ../css/_blog.scss */
-.panel.text-doc {
-  backgrond-color: #ccc;
-  color: black;
-}
-
-/* line 99, ../css/_blog.scss */
+/* line 93, ../css/_blog.scss */
 .post1 {
   border-bottom: solid black;
+}
+
+/* line 98, ../css/_blog.scss */
+.panel.text-doc {
+  background-color: white;
+  color: black;
 }

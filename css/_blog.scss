@@ -47,7 +47,7 @@
 }
 
 .blog * p{
-  line-height:1px;
+  // line-height:1px;
 }
 
 .blog * a {
@@ -79,7 +79,7 @@
 
 .ntp-config p{
   margin-top: 15px;
-  line-height: 0px !important;
+  // line-height: 0px !important;
   font-size: 15px;
 }
 
@@ -89,13 +89,13 @@
   color: #ccc !important;
 }
 
-.panel.text-doc{
-  backgrond-color: #ccc;
-  color: black;
-}
-
-
 
 .post1{
 border-bottom: solid black;
+}
+
+
+.panel.text-doc{
+  background-color: white;
+  color: black;
 }
