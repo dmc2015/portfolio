@@ -1,0 +1,66 @@
+.blog h2{
+  font-family: Merriweather, Lato, Arial !important;
+}
+
+
+.blog p{
+  font-family: Merriweather, Lato, Arial !important;
+}
+
+
+.blog * p, .blog *{
+  color: black !important;
+}
+
+.blog * section, .blog section, .blog * li {
+  margin-bottom: 1%;
+  font-family: Merriweather;
+  font-size: 15px;
+}
+
+
+#blog-page{
+  // display: none !important;
+  // font-size: 20px;
+  color: #ccc;
+}
+
+.blog-hide{
+  display: none !important;
+  // font-size: 20px;
+  color: #ccc;
+}
+
+.blog-show{
+  display: show !important;
+  // font-size: 20px;
+  color: #ccc;
+
+}
+
+.blog * p{
+  line-height:1px;
+}
+
+.blog * a {
+  color: #00B9AB !important;
+}
+
+.blog ul ~ p{
+  // font-family: Merriweather;
+  // font-size: 15px;
+  // letter-spacing: 0px !important;
+}
+
+#blog-page > div > p{
+  font-family: Merriweather;
+  font-size: 15px;
+  letter-spacing: 0px !important;
+  word-spaccing: 0px;
+  margin-bottom: 0px;
+}
+
+.blog h3{
+  color: #00B9AB !important;
+  font-size: 30px;
+}
