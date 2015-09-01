@@ -480,7 +480,7 @@
 		<div class="ntp-config">
 			<h3>NTP Setup and Configuration</h3>
 
-			There are a a variety of ways to install and/or configure NTP especially if you consider operating systems, here is just one way (info with the turquoise background is executed in the command line).
+			There are a a variety of ways to install and/or configure NTP especially if you consider operating systems, here is just one way (info with the black background is executed in the command line, white background is for information that is entered into a text file).
 			<div class="panel">
 				<p>For a Linux System (RedHat):
 
@@ -519,9 +519,11 @@
 						<p>Once editing this file you can setup several features including restricting access to your NTP server and logging parameters.</p>
 
 						<p>The essentials of the configuration file include two lines, one for the primary NTP server to sync with and a the second line is a back up server incase the primary is down.</p>
-						<div class="panel command">
-							server 0.rhel.pool.ntp.org
-							server 1.rhel.pool.ntp.org
+						<div class="panel text-doc">
+							<ul>
+							<li class="no-bullet">server 0.rhel.pool.ntp.org</li>
+							<li class="no-bullet">server 1.rhel.pool.ntp.org</li>
+						</ul>
 						</div>
 					</div>
 				</div>
@@ -575,9 +577,7 @@
 
 		<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js"></script> -->
 
-		<script>
-		$(document).foundation();
-		</script>
+
 
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
 		<!-- Initializing slick -->

@@ -2,6 +2,13 @@
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
 
+$(document).ready(function() {
+  if (window.location.hash = 'blog-page'){
+    blogOpen();
+  };
+
+});
+
 
 var blogOpen = function(){
   console.log("Blog start");
@@ -37,3 +44,17 @@ var blogClose = function() {
   console.log('blog exit attempted');
   console.log(main);
 };
+
+
+//
+// // "https://www.codementor.io/session/9704206780#blog-page"
+//
+// $(function() {
+//   if (window.location.hash == 'blog-page') {
+//     showBlogPage();
+//   }
+// });
+//
+// function showBlogPage() {
+//   // ....
+// }
