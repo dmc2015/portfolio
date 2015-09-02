@@ -570,7 +570,9 @@
 		data-ad-slot="7142479435"
 		data-ad-format="auto"></ins>
 		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
+		window.onload = function() {
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		};
 		</script>
 	</div>
 
