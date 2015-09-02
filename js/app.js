@@ -3,7 +3,7 @@
 $(document).foundation();
 
 $(document).ready(function() {
-  if (window.location.hash = 'blog-page'){
+  if (window.location.hash == 'blog-page'){
     blogOpen();
   };
 
