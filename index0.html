@@ -272,7 +272,7 @@
 
 		<h3>HTTP Functionality & Purpose</h3>
 		<div>
-			HTTP is a protocol that allows clients to access resources on the web(web sites, files, images, .etc) and it exists at the upper layer (Application Layer) of the tcp/ip model. Web browsers utilize HTTP to communicate with resources on the web in order to present them to the user. Without HTTP the Internet would not be as we know it today.
+			HTTP is a protocol that allows clients to access resources on the web(web sites, files, images, .etc) and it exists at the upper layer (Application Layer) of the TCP/IP model. Web browsers utilize HTTP to communicate with resources on the web in order to present them to the user. Without HTTP the Internet would be quite different.
 		</div>
 
 		<div>
@@ -298,23 +298,26 @@
 				The second & third line are header lines that provide information about the client
 			</li>
 			<li>
-				Following the headers, of which there can be several there may be a message body, this can include a the contents of a file or query data
+				Following the headers, of which there can be several there may be a message body, this can include the contents of a file or query data and is more often seen in a Response from the server
 			</li>
 		</ul>
+		<div>
+			<p>Of these lines the most important is the Request line, lets look at that in more detail.</p>
+		</div>
 
 		<h3>The Initial Request line</h3>
 		<div class="panel">
-			GET /app/index.html HTTP/1.1
+			<p>GET /app/index.html HTTP/1.1</p>
 		</div>
 
 		<ul>
-			<li>The HTTP Verb or Method</li>
-			<li>The path to the file that is being requested or the Uniform Resource Identifier (URI) request</li>
-			<li>The last part is the version of HTTP the client is attempting to utilize</li>
+			<li>The HTTP Verb or Method in this case is 'GET', this tells the server what the clients intention is, what action we would like to perform. A 'GET' is essentially asking to read the document.</li>
+			<li>Next is the path to the file '/app/index.html'. The path to the file tells the server what it is that we are trying to 'GET'.</li>
+			<li>The last part is the version of HTTP the client is utilizing.</li>
 		</ul>
 
 
-		<p>After the server receives the request from the client it responsds, below is an example of the servers response to the client.</p>
+		<p>After the server receives the request from the client it responds, below is an example of a servers response to the client.</p>
 		<div class="panel">
 			<h4>Server Response:</h4>
 			<p>HTTP/1.1 200 OK</p>
@@ -331,10 +334,14 @@
 		<div>
 			<div>
 				<ul>
-					<li>The first line is the Initial Response</li>
-					<li>The next three lines are headers that provide information about the data that is being supplied the client. When content is returned by the server in the message body the headers of Content-Type and Content Length are usually included</li>
-					<li>After the headers the content of the request is provided at the end</li>
+					<li>The first line is the Initial Response, basically letting the client know if its request is accepted or not.</li>
+					<li>The next three lines are headers that provide information about the data that is being provided to the client and the server that is providing the data. When content is returned by the server in the message body the headers of Content-Type and Content Length are usually included.</li>
+					<li>Finally, after the headers of the content of the request is provided at the end.</li>
 				</ul>
+			</div>
+
+			<div>
+				<p>Lets take a look at the servers response to the client.</p>
 			</div>
 
 			<h3>The Initial Response line</h3>
@@ -342,13 +349,16 @@
 				<p>HTTP/1.1 200 OK</p>
 			</div>
 			<ul>
-				<li>The HTTP version</li>
-				<li>The status code</li>
-				<li>The human readable status</li>
+				<li>The first part shows the HTTP version the server is using to communicate.</li>
+				<li>The second part is the status code that is intended to be interpreted by the browser.</li>
+				<li>The last part is the human readable status code.</li>
 			</ul>
 
 		</div>
 
+		<div>
+			<p>This all seems pretty straight forward but it is important to have a understanding of common HTTP headers, with this information it can be easier to interpret HTTP traffic as well as gain a better understanding of the communication that is taking place between servers and clients.</p>
+		</div>
 
 		<div>
 			<h3>Some commonly used headers are:</h3>
@@ -357,22 +367,22 @@
 				<ul>
 					<li>From - the email address of the user making the request</li>
 					<li>User-Agent - the name and version of the browser or tool utilizing HTTP</li>
-					<li>Accept - content-types(a response header) that are acceptable for the client</li>
+					<li>Accept - content types (a response header) that states what are types of content the server can provide</li>
 					<li>Host - the domain name being requested in the HTTP request and it may include the port number on the end</li>
-					<li>If-Modified-Since - if content is not changed from given value (Date & time) the server will return a 304 error</li>
-					<li>Cache-Control - tells caching on client how long information can be cached</li>
+					<li>If-Modified-Since - if content is not changed from given value (Date & time) the server will return a 304 error. Otherwise, barring any other issues, it will return what was requested to the client</li>
+					<li>Cache-Control - tells caching on client how long information can be stored</li>
 				</ul>
 			</div>
 
 			<div class="common-response-headers panel">
 				<h4>For Server Responses:</h4>
 				<ul>
-					<li>Server - the name of the server</li>
-					<li>Last-Modified - the date the resource that was requested was last modified</li>
+					<li>Server - the name of the server.</li>
+					<li>Last-Modified - the date the resource that was requested by the client was last modified</li>
 					<li>Connection - controls if a connection should continue or end</li>
 					<li>Expires - gives a limit or defines when communication should be terminated</li>
-					<li>Content-Type - states the type of data that is returned from</li>
-					<li>Content-Length - states the amount of data, in 8-bit bytes, that should be contained in the message body of the http response</li>
+					<li>Content-Type - states the type of data that is returned from the server</li>
+					<li>Content-Length - states the amount of data, in 8-bit bytes, that should be contained in the message body of the HTTP Response</li>
 				</ul>
 			</div>
 			<h3>Conclusion</h3>
@@ -380,18 +390,18 @@
 				Understanding HTTP is important to troubleshooting a variety of network related issues and acquiring a better understanding regarding how the Internet functions.
 			</div>
 			<div>
-				Some other topics that will research further will be HTTP methods, common web vulnerabilities, and other protocols that important to having a strong understanding of network functionality.
+				Some other topics that I will research further will be HTTP methods, common web vulnerabilities, and other protocols that important to having a strong understanding of network functionality.
 			</div>
 
 			<div>
-				There is a lot more to HTTP then what I covered here.Below are some interesting facts about HTTP I found and additional resources for those interested in learning more.
+				There is a lot more to HTTP then what I covered here. Below are some interesting facts about HTTP I found and additional resources for those interested in learning more.
 			</div>
 
 
 			<div class="panel">
 				<h3>Side Notes & HTTP Facts:</h3>
 				<ul>
-					<li>	The general description of a response message is denoted based on the first number of the status code:
+					<li>	The general description of a Response message is denoted based on the first number of the status code:
 						<ul>
 							<li>1xx - informational message</li>
 							<li>2xx - success message</li>
@@ -401,7 +411,7 @@
 						</ul>
 					</li>
 					<li>
-						After each line is ended with ASCII CRLF, these characters signify that a new line is should be created for the data that follows it.
+						Each line is ended with ASCII 'CRLF', these characters signify that a new line is should be created for the data that follows these characters.
 					</li>
 
 					<li>
@@ -427,7 +437,7 @@
 					<li>There are several HTTP headers associated to security are located here also:
 						<a  href="https://www.owasp.org/index.php/List_of_useful_HTTP_headers">Owasp Security Headers List</a>
 					</li>
-					<li>The server Response commonly contains a message body, as this is how the client receives the data that was requested. See additional sources to learn more about HTTP headers.</li>
+					<li>The server Response commonly contains a message body for the client. See additional sources to learn more about HTTP headers.</li>
 				</ul>
 			</div>
 
@@ -456,12 +466,12 @@
 
 		<div>
 			<h3>Purpose & Significance</h3>
-			NTP is utilized to synchronize the time of all computers on your network and is located on the Application level of the TCP/IP Model. With in a network with multiple clients it can become important to ensure that all computes are working off of the same time standard, there are several reasons for this. Typically a system admin will sync a local server with a remote NTP server(on that is standardized to the ) and clients will sync with the local server and utilize another NTP server as a backup.all serversit is important
+			NTP is utilized to synchronize the time of all computers on your network and is located on the Application level of the TCP/IP Model. With in a network with multiple clients it can become important to ensure that all computes are working off of the same time standard, there are several reasons for this. Typically a system admin will sync a local server with a remote NTP server(one that is standardized the servers local time) and clients will sync with the local server and utilize another NTP server as a backup.
 		</div>
 
 		<div>
 			<h3>User Experience Concerns</h3>
-			From the perspective of a computer user, if they were to switch computers it is important to for the time to be synchronized. Lack of synchronization could lead to a number of issues from missed meetings to employees performing tasks that are intended to be completed at a specific time.
+			From the perspective of a computer user, if they were to switch computers it is important for the time to be synchronized so the user does not get confused. Lack of synchronization could lead to a number of issues from missed meetings to employees performing tasks that are intended to be completed at a specific time later or earlier than it should be completed.
 		</div>
 
 		<div>
@@ -469,7 +479,7 @@
 		</div>
 
 		<div>
-			Have you ever noticed e-mails with arriving before the sent time even though it was sent with in the same time zone? There could be a number of reasons for this but one of which is someone working on a client that is out of sync with a local NTP server.
+			Have you ever noticed e-mails with arriving before the sent time even though it was sent with in the same time zone? There could be a number of reasons for this but one of may involve a user working on a client that is out of sync with a local NTP server.
 		</div>
 
 		<div>
@@ -480,7 +490,7 @@
 		<div class="ntp-config">
 			<h3>NTP Setup and Configuration</h3>
 
-			There are a a variety of ways to install and/or configure NTP especially if you consider operating systems, here is just one way (info with the black background is executed in the command line, white background is for information that is entered into a text file).
+			There are a a variety of ways to install and/or configure NTP especially if you consider variation between operating systems, here is just one way (info with the black background is executed in the command line, white background is for information that is entered into a text file).
 			<div class="panel">
 				<p>For a Linux System (RedHat):
 
@@ -492,10 +502,13 @@
 						<li> ntp-doc</li>
 					</ul>
 
+					<div>
+						<p>You can install these programs with this command.</p>
+					</div>
 
 					<p class="panel command">yum install ntp ntpdate ntp-doc</p>
 
-					<p>Turn on the NTP Service(this is typed into the command line)</p>
+					<p>Turn on the NTP Service</p>
 
 					<p class="panel command">chkconfig ntpd on</p>
 
@@ -507,18 +520,18 @@
 
 					<p>Customize NTP (This is optional)</p>
 
-					<p> You can locate the configuration file for ntp and modify the configuration in the file:</p>
+					<p> You can locate the configuration file for ntp and modify the configuration in the file also if you need something specific:</p>
 
 					<div class="panel command">
 						<p>‘vi /etc/ntp.conf' or '/etc/xntp.conf'</p>
 					</div>
 
-					<p>(The difference will depend on the distribution of your Linux OS which also determins the NTP version, also see side notes below for additional details.)</p>
+					<p>(The difference of the file name will depend on the distribution of your Linux OS which also determines the NTP version, see side notes below for additional details.)</p>
 
 					<div class="unique-issue">
 						<p>Once editing this file you can setup several features including restricting access to your NTP server and logging parameters.</p>
 
-						<p>The essentials of the configuration file include two lines, one for the primary NTP server to sync with and a the second line is a back up server incase the primary is down.</p>
+						<p>The essentials of the configuration file include two lines, one for the primary NTP server to sync with and a second line is a back up server in case the primary is down.</p>
 						<div class="panel text-doc">
 							<ul>
 								<li class="no-bullet">server 0.rhel.pool.ntp.org</li>
@@ -529,7 +542,10 @@
 				</div>
 
 
-
+				<h3>Conclusion</h3>
+				<div>
+					NTP is a  important protocol that runs on top of TCP/IP protocols. It allows us to synchronize times with in a businesses unit which is vital for daily business operations, analytical network research and is generally a best practice to have a NTP server in place.
+				</div>
 
 				<div>
 					For additional information I recommend checking out the sources below.
