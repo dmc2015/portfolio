@@ -6,10 +6,11 @@ $(document).ready(function() {
   if (window.location.hash === '#blog-page'){
     blogOpen();
     console.log('blog opened via direct link or bookmark');
-  }else{
-    blogClose();
-    console.log('default close of blog')
-  };
+  }
+  // else{
+  //   blogClose();
+  //   console.log('default close of blog')
+  // };
 
 });
 
