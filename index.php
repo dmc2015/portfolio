@@ -144,7 +144,7 @@
 						<p class="about-slider text-left">&#9673; HTML5</p>
 						<p class="about-slider text-left">&#9673; CSS3 - Foundations, SASS, Compass</p>
 						<p class="about-slider text-left">&#9673; Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p>
-						<p class="about-slider text-left">&#9673; Javascript - jQuery, Backbone, Ajax, Jasmin, JSON</p>
+						<p class="about-slider text-left">&#9673; Javascript - Mongo, Express, Node, Angular.js, Gulp jQuery, Backbone, Ajax, Jasmin, JSON</p>
 						<p class="about-slider text-left">&#9673; Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, Bower, NPM</p>
 						<p class="about-slider text-left">&#9673; More Inside My<a href="docs/_resume.pdf"> Resume</a></p>
 					</li>
@@ -203,8 +203,25 @@
 		<div class="portfolio-slider-container">
 
 			<ul class="slideshow small-block-grid-3">
-				<li class="securitypulse project th">
 
+
+
+				<li class="voxpopuli project th">
+					<a class="" href="https://voxpopuli-.herokuapp.com"> <img src="images/voxpopuli.png" alt="portfolio image"/></a>
+					<p class="text-center panel">An MEAN stack app, based on a Reddit clone, that allows users to communicate and discuss current events.</p>
+				</li>
+
+				<li class="formula1 project th">
+					<a class="" href="http://formula-1-stats.herokuapp.com"> <img src="images/formula1.png" alt="portfolio image"/></a>
+					<p class="text-center panel">A Angular and Express using a API that allows users to find Formula I stats.</p>
+				</li>
+
+				<li class="daytrackr project th">
+					<a class="" href="http://daytrackr.meteor.com"> <img src="images/daytrackr.png" alt="portfolio image"/></a>
+					<p class="text-center panel">Prototype project for Meteor.js, an organizational app.</p>
+				</li>
+
+				<li class="securitypulse project th">
 					<a  href="http://securitypulse.herokuapp.com"> <img src="images/securitypulse_1.png" alt="portfolio image"/> </a>
 					<p class="text-center panel">A application designed encouraging and supporting a
 						secure web.</p>
@@ -224,15 +241,7 @@
 					<p class="text-center panel">A group project to assist writers in promoting their work and allow readers an opprotunity to read short stories.</p>
 				</li>
 
-				<li class="daytrackr project th">
-					<a class="" href="http://daytrackr.meteor.com"> <img src="images/daytrackr.png" alt="portfolio image"/></a>
-					<p class="text-center panel">Prototype project for Meteor.js, an organizational app.</p>
-				</li>
 
-				<li class="distil project th">
-					<a class="" href="https://github.com/dmc2015/distill-bots-filter4"> <img src="images/distil-filter.png" alt="portfolio image"/></a>
-					<p class="text-center panel">I created a filter for a prospective employer to sort through the bots on their web page.</p>
-				</li>
 
 
 				<!-- <li class="todo project th">
