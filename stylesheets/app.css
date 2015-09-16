@@ -10815,7 +10815,7 @@ p{
 
 /* line 48, ../css/_blog.scss */
 ins.adsbygoogle.show-ad {
-  display: show !important;
+  display: initial !important;
 }
 
 /* line 52, ../css/_blog.scss */
