@@ -464,7 +464,16 @@
 		</div>
 	</div>
 
-
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- responsive ad 2 -->
+	<ins class="adsbygoogle"
+	style="display:block"
+	data-ad-client="ca-pub-9430688495360664"
+	data-ad-slot="1334997835"
+	data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
 	<div class="blog post2">
 
 		<div class="text-center">
@@ -586,18 +595,15 @@
 
 
 		</div>
-		<!--GOOGLE ADSENSE -->
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- cyberdesigns-first-ad -->
+		<!-- responsive -->
 		<ins class="adsbygoogle"
 		style="display:block"
 		data-ad-client="ca-pub-9430688495360664"
-		data-ad-slot="7142479435"
+		data-ad-slot="3090932632"
 		data-ad-format="auto"></ins>
 		<script>
-		window.onload = function() {
-			(adsbygoogle = window.adsbygoogle || []).push({});
-		};
+		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
 	</div>
 
