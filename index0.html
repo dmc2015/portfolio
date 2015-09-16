@@ -464,6 +464,16 @@
 		</div>
 	</div>
 
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- responsive ad 2 -->
+	<ins class="adsbygoogle hide-ad"
+	     style="display:block"
+	     data-ad-client="ca-pub-9430688495360664"
+	     data-ad-slot="1334997835"
+	     data-ad-format="auto"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
 
 	<div class="blog post2">
 
@@ -588,7 +598,7 @@
 		</div>
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- responsive -->
-		<ins class="adsbygoogle"
+		<ins class="adsbygoogle hide-ad"
 		style="display:block"
 		data-ad-client="ca-pub-9430688495360664"
 		data-ad-slot="3090932632"

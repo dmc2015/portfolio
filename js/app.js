@@ -22,12 +22,16 @@ var blogOpen = function(){
   //var mainBody = document.querySelector('.main');
   var blogPage = document.querySelector('#blog-page');
   var main = document.querySelector('.main');
+  var googleAd = document.querySelector('ins.adsbygoogle');
 
   //hides main page and shows blog page
 
   //shows blogs
   blogPage.classList.add('blog-show');
   blogPage.classList.remove('blog-hide');
+
+  googleAd.classList.add('show-ad');
+  googleAd.classList.add('hide-ad');
 
   //hides remaining content
   main.style.display = "none";
@@ -42,10 +46,17 @@ var blogOpen = function(){
 var blogClose = function() {
   var blogPage = document.querySelector('#blog-page');
   var main = document.querySelector('.main');
+  var googleAd = document.querySelector('ins.adsbygoogle');
+
 
   blogPage.classList.add('blog-hide');
   blogPage.classList.remove('blog-show');
+
+  googleAd.classList.add('hide-ad');
+  googleAd.classList.remove('show-ad');
+
   main.style.display = "initial";
+
   console.log('blog exit attempted');
   console.log(main);
 };

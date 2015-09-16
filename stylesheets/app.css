@@ -10813,12 +10813,22 @@ p{
   color: #ccc;
 }
 
-/* line 53, ../css/_blog.scss */
+/* line 48, ../css/_blog.scss */
+ins.adsbygoogle.show-ad {
+  display: show !important;
+}
+
+/* line 52, ../css/_blog.scss */
+ins.adsbygoogle.hide-ad {
+  display: none !important;
+}
+
+/* line 60, ../css/_blog.scss */
 .blog * a {
   color: #00B9AB !important;
 }
 
-/* line 63, ../css/_blog.scss */
+/* line 70, ../css/_blog.scss */
 #blog-page > div > p {
   font-family: Merriweather;
   font-size: 15px;
@@ -10827,35 +10837,35 @@ p{
   margin-bottom: 0px;
 }
 
-/* line 71, ../css/_blog.scss */
+/* line 78, ../css/_blog.scss */
 .blog h3 {
   color: #00B9AB !important;
   font-size: 30px;
 }
 
-/* line 76, ../css/_blog.scss */
+/* line 83, ../css/_blog.scss */
 .no-bullet {
   list-style-type: none;
 }
 
-/* line 80, ../css/_blog.scss */
+/* line 87, ../css/_blog.scss */
 .ntp-config p {
   margin-top: 15px;
   font-size: 15px;
 }
 
-/* line 86, ../css/_blog.scss */
+/* line 93, ../css/_blog.scss */
 .panel.command, .panel.command p {
   background-color: black;
   color: #ccc !important;
 }
 
-/* line 93, ../css/_blog.scss */
+/* line 100, ../css/_blog.scss */
 .post1 {
   border-bottom: solid black;
 }
 
-/* line 98, ../css/_blog.scss */
+/* line 105, ../css/_blog.scss */
 .panel.text-doc {
   background-color: white;
   color: black;
