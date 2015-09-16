@@ -463,7 +463,6 @@
 			</div>
 		</div>
 	</div>
-</div>
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<!-- responsive ad 2 -->
 	<ins class="adsbygoogle"
@@ -474,6 +473,8 @@
 	<script>
 	(adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
+</div>
+
 </div>
 	<div class="blog post2">
 
@@ -596,7 +597,7 @@
 
 
 		</div>
-		<div>
+
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 		<!-- responsive -->
 		<ins class="adsbygoogle"
@@ -607,7 +608,7 @@
 		<script>
 		(adsbygoogle = window.adsbygoogle || []).push({});
 		</script>
-	</div>
+
 	</div>
 
 	<footer>
