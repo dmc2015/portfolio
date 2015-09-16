@@ -30,8 +30,8 @@ var blogOpen = function(){
   blogPage.classList.add('blog-show');
   blogPage.classList.remove('blog-hide');
 
-  googleAd.classList.add('show-ad');
-  googleAd.classList.remove('hide-ad');
+  // googleAd.classList.add('show-ad');
+  // googleAd.classList.remove('hide-ad');
 
   //hides remaining content
   main.style.display = "none";
@@ -52,8 +52,8 @@ var blogClose = function() {
   blogPage.classList.add('blog-hide');
   blogPage.classList.remove('blog-show');
 
-  googleAd.classList.add('hide-ad');
-  googleAd.classList.remove('show-ad');
+  // googleAd.classList.add('hide-ad');
+  // googleAd.classList.remove('show-ad');
 
   main.style.display = "initial";
 
