@@ -461,6 +461,16 @@
 					<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">Mozilla HTTP Info</a></li>
 				</ul>
 			</div>
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9430688495360664"
+     data-ad-slot="3090932632"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 		</div>
 	</div>
 
@@ -586,19 +596,16 @@
 
 
 		</div>
-		<!--GOOGLE ADSENSE -->
 		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- cyberdesigns-first-ad -->
-		<ins class="adsbygoogle"
-		style="display:block"
-		data-ad-client="ca-pub-9430688495360664"
-		data-ad-slot="7142479435"
-		data-ad-format="auto"></ins>
-		<script>
-		window.onload = function() {
-			(adsbygoogle = window.adsbygoogle || []).push({});
-		};
-		</script>
+<!-- responsive ad 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9430688495360664"
+     data-ad-slot="1334997835"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 	</div>
 
 	<footer>
