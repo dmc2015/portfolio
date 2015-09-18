@@ -461,7 +461,7 @@
 					<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers">Mozilla HTTP Info</a></li>
 				</ul>
 			</div>
-			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+			<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- responsive -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -470,7 +470,7 @@
      data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 		</div>
 	</div>
 
@@ -596,7 +596,7 @@
 
 
 		</div>
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<!-- <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- responsive ad 2 -->
 <ins class="adsbygoogle"
      style="display:block"
@@ -605,7 +605,7 @@
      data-ad-format="auto"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script> -->
 	</div>
 
 	<footer>
