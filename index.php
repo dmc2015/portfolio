@@ -144,7 +144,7 @@
 						<p class="about-slider text-left">&#9673; HTML5</p>
 						<p class="about-slider text-left">&#9673; CSS3 - Foundations, Bootstrap, SASS, Compass for Compiling</p>
 						<p class="about-slider text-left">&#9673; Ruby - Rails, Devise, Cancancan, Rspec, ActiveRecord</p>
-						<p class="about-slider text-left">&#9673; Javascript - Mongo, Express, Node, Angular.js, Gulp jQuery, Backbone, Ajax, Jasmin, JSON</p>
+						<p class="about-slider text-left">&#9673; Javascript - Mongo, Express, Node, Angular.js, Gulp, jQuery, Backbone, Ajax, Jasmin, JSON</p>
 						<p class="about-slider text-left">&#9673; Other Technologies - Microsoft Server 2012, Postgresql, Git, AWS, Heroku, Bower, NPM</p>
 						<p class="about-slider text-left">&#9673; More Inside My<a href="docs/_resume.pdf"> Resume</a></p>
 					</li>
