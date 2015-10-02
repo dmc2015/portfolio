@@ -213,7 +213,7 @@
 
 				<li class="formula1 project th">
 					<a class="" href="http://formula-1-stats.herokuapp.com"> <img src="images/formula1.png" alt="portfolio image"/></a>
-					<p class="text-center panel">A Angular and Express using a API that allows users to find Formula I stats.</p>
+					<p class="text-center panel">A Angular and Express app using a API that allows users to find Formula I stats.</p>
 				</li>
 
 				<li class="daytrackr project th">
@@ -223,13 +223,13 @@
 
 				<li class="securitypulse project th">
 					<a  href="http://securitypulse.herokuapp.com"> <img src="images/securitypulse_1.png" alt="portfolio image"/> </a>
-					<p class="text-center panel">A application designed encouraging and supporting a
+					<p class="text-center panel">A application designed to encourage and support a
 						secure web.</p>
 					</li>
 
 					<li class="policonnect project th">
 						<a class="" href="http://www.policonnect.org"> <img src="images/policonnect.png" alt="portfolio image"/></a>
-						<p class="text-center panel">A group project to connect policymakers to experts in order to inform policymakers when making decisions.</p>
+						<p class="text-center panel">A group project to connect politicians to experts in order to inform policymakers when prior to making decisions.</p>
 					</li>
 
 					<!-- <li class="postpoll project th">
