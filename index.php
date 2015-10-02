@@ -238,7 +238,7 @@
 
 				<li class="writershub project th">
 					<a class="" href="https://the-writers-hub.herokuapp.com"> <img src="images/writershub_1.png" alt="portfolio image"/></a>
-					<p class="text-center panel">A group project to assist writers in promoting their work and allow readers an opprotunity to read short stories.</p>
+					<p class="text-center panel">A group project to assist writers in promoting their work and allow readers an opportunity to read short stories.</p>
 				</li>
 
 
