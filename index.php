@@ -87,6 +87,9 @@
 						<a  href="#portfolio" onclick="blogClose()">Portfolio</a>
 					</li>
 					<li>
+						<a  href="ux.html" onclick="blogClose()">UX</a>
+					</li>
+					<li>
 						<a href="#contact" onclick="blogClose()">Contact</a>
 					</li>
 					<li>
@@ -98,7 +101,7 @@
 				</ul>
 
 				<ul class="right small-4 social-list">
-					<li><a href="https://twitter.com/_D__o__N_"> <img class="social" src="images/twitter.png" alt="Twitter Account"/></a></li>
+					<!-- <li><a href="https://twitter.com/_D__o__N_"> <img class="social" src="images/twitter.png" alt="Twitter Account"/></a></li> -->
 					<li><a href="https://facebook.com/don.mclamb.16"> <img class="social" src="images/facebook.png" alt="Facebook Account"/></a></li>
 					<li><a href="https://www.linkedin.com/in/mclambdon"> <img class="social" src="images/linkedin.png" alt="LinkedIn Account"/></a></li>
 					<li><a href="https://github.com/dmc2015"><img class="social" src="images/merged-realgreen.png" alt="Github Account"/></a></li>
