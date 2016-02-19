@@ -10860,3 +10860,21 @@ p{
   background-color: white;
   color: black;
 }
+
+/* line 1, ../css/_ux.scss */
+#springboard {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 3%;
+}
+
+/* line 12, ../css/_ux.scss */
+.description {
+  font-size: 70%;
+}
+
+/* line 17, ../css/_ux.scss */
+.projects li {
+  list-style-decoration: none !important;
+  list-style-type: none !important;
+}
