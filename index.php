@@ -87,7 +87,7 @@
 						<a  href="#portfolio" onclick="blogClose()">Portfolio</a>
 					</li>
 					<li>
-						<a  href="ux.html" onclick="blogClose()">UX</a>
+						<a  href="ux.php" onclick="blogClose()">UX</a>
 					</li>
 					<li>
 						<a href="#contact" onclick="blogClose()">Contact</a>

@@ -71,7 +71,7 @@
       <ul class="title-area">
         <li class="name">
           <!-- <h1><a href="#top" onclick="blogClose()">CyberDesigns.io <small>by  Don McLamb</small></a></h1> -->
-          <h1><a href="index0.html" onclick="blogClose()">CyberDesigns.io <small>by  Don McLamb</small></a></h1>
+          <h1><a href="index.php" onclick="blogClose()">CyberDesigns.io <small>by  Don McLamb</small></a></h1>
 
         </li>
         <li class="toggle-topbar menu-icon">
@@ -84,23 +84,23 @@
         <ul class="left small-4 main-nav">
           <li>
             <!-- <a href="#about" onclick="blogClose()">About</a> -->
-            <a href="index0.html" onclick="blogClose()">About</a>
+            <a href="index.php" onclick="blogClose()">About</a>
 
           </li>
           <li>
-            <a  href="index0.html" onclick="blogClose()">Portfolio</a>
+            <a  href="index.php" onclick="blogClose()">Portfolio</a>
           </li>
           <li>
-            <a  href="ux.html" onclick="blogClose()">UX</a>
+            <a  href="ux.php" onclick="blogClose()">UX</a>
           </li>
           <li>
-            <a href="index0.html" onclick="blogClose()">Contact</a>
+            <a href="index.php" onclick="blogClose()">Contact</a>
           </li>
           <li>
             <a href="docs/_resume.pdf">Resume</a>
           </li>
           <li>
-            <a href="index0.html" class="blog" onclick="blogOpen()">Blog</a>
+            <a href="index.php" class="blog" onclick="blogOpen()">Blog</a>
           </li>
         </ul>
 
@@ -321,7 +321,7 @@
             </li>
             <li>The only required header is Host for the request and this is true only for HTTP 1.1.</li>
             <li>There are several HTTP headers associated to security issues:
-              <a  href="https://www.owasp.org/index0.html/List_of_useful_HTTP_headers">Owasp Security Headers List</a>
+              <a  href="https://www.owasp.org/index.php/List_of_useful_HTTP_headers">Owasp Security Headers List</a>
             </li>
             <li>The server Response commonly contains a message body for the client. See additional sources to learn more about HTTP headers.</li>
           </ul>
