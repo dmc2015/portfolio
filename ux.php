@@ -71,7 +71,7 @@
       <ul class="title-area">
         <li class="name">
           <!-- <h1><a href="#top" onclick="blogClose()">CyberDesigns.io <small>by  Don McLamb</small></a></h1> -->
-          <h1><a href="index.php" onclick="blogClose()">CyberDesigns.io <small>by  Don McLamb</small></a></h1>
+          <h1><a href="index0.html" onclick="blogClose()">CyberDesigns.io <small>by  Don McLamb</small></a></h1>
 
         </li>
         <li class="toggle-topbar menu-icon">
@@ -84,23 +84,23 @@
         <ul class="left small-4 main-nav">
           <li>
             <!-- <a href="#about" onclick="blogClose()">About</a> -->
-            <a href="index.php" onclick="blogClose()">About</a>
+            <a href="index0.html" onclick="blogClose()">About</a>
 
           </li>
           <li>
-            <a  href="index.php" onclick="blogClose()">Portfolio</a>
+            <a  href="index0.html" onclick="blogClose()">Portfolio</a>
           </li>
           <li>
-            <a  href="ux.php" onclick="blogClose()">UX</a>
+            <a  href="ux.html" onclick="blogClose()">UX</a>
           </li>
           <li>
-            <a href="index.php" onclick="blogClose()">Contact</a>
+            <a href="index0.html" onclick="blogClose()">Contact</a>
           </li>
           <li>
             <a href="docs/_resume.pdf">Resume</a>
           </li>
           <li>
-            <a href="index.php" class="blog" onclick="blogOpen()">Blog</a>
+            <a href="index0.html" class="blog" onclick="blogOpen()">Blog</a>
           </li>
         </ul>
 
@@ -134,11 +134,11 @@
 
     <ul class="projects">
       <li><a href="https://drive.google.com/file/d/0B-amuWG3LbyGRERwT09WN0FWVmc/view?usp=sharing">Project 1: Goal Assesment for Eat24</a></li>
-      <li><a href="https://drive.google.com/file/d/0B-amuWG3LbyGRzB4R2pHa3JJeWM/view?usp=sharing">Project 2: TimeBank Sketch</a></li>
-      <li><a href="https://drive.google.com/file/d/0B-amuWG3LbyGQUNfSVhTOTZnNUE/view?usp=sharing">Project 3: Personas for Trulia Re-Design</a></li>
-      <li><a href="https://drive.google.com/file/d/0B-amuWG3LbyGV2FKUnk0OXJ0THM/view?usp=sharing">Project 4: Information Architecture for Trulia Re-Design</a></li>
-      <li><a href="https://drive.google.com/file/d/0B-amuWG3LbyGNFU1YkJwLVNnZjQ/view?usp=sharing">Project 5: Wireframes for Trulia Re-Design</a></li>
-      <li><a href="https://drive.google.com/file/d/0B-amuWG3LbyGR25GWDNGQ3NGRnc/view?usp=sharing">Project 6: Visual Design Language for Trulia Re-Design</a></li>
+      <li><a href="https://drive.google.com/file/d/0B-amuWG3LbyGZi1yby1JQ25QdlU/view?usp=sharing">Project 2: TimeBank Sketch</a></li>
+      <li><a href="https://drive.google.com/file/d/0B-amuWG3LbyGTzR4UU5xNElDNmc/view?usp=sharing">Project 3: Personas for Trulia Site</a></li>
+      <li><a href="https://drive.google.com/file/d/0B-amuWG3LbyGVW9Kd2tBbFJWX2c/view?usp=sharing">Project 4: Information Architecture for Trulia Re-Design</a></li>
+      <li><a href="https://drive.google.com/file/d/0B-amuWG3LbyGdTM1aEFiR0J4b2c/view?usp=sharing">Project 5: Wireframes for Trulia Re-Design</a></li>
+      <li><a href="https://drive.google.com/file/d/0B-amuWG3LbyGWGVGdUV4eFBFX28/view?usp=sharing">Project 6: Visual Design Language for Trulia Re-Design</a></li>
       <li><a href="http://by3ayi.axshare.com﻿">Project 7: Clickable Prototype for Trulia Re-Design</a></li>
     </ul>
 
@@ -321,7 +321,7 @@
             </li>
             <li>The only required header is Host for the request and this is true only for HTTP 1.1.</li>
             <li>There are several HTTP headers associated to security issues:
-              <a  href="https://www.owasp.org/index.php/List_of_useful_HTTP_headers">Owasp Security Headers List</a>
+              <a  href="https://www.owasp.org/index0.html/List_of_useful_HTTP_headers">Owasp Security Headers List</a>
             </li>
             <li>The server Response commonly contains a message body for the client. See additional sources to learn more about HTTP headers.</li>
           </ul>
